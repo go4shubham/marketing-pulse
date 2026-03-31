@@ -12,7 +12,7 @@
       "action": "Test AI Max on one campaign with a controlled budget. Keep a traditional campaign running in parallel to benchmark real performance. Opt into each component separately.",
       "source": "https://almcorp.com/blog/google-ai-max-text-guidelines-all-advertisers-2026/",
       "sourceName": "ALM Corp",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "AI Max",
         "Automation",
@@ -30,7 +30,7 @@
       "action": "Use Campaign Total Budgets for time-bound promotions, seasonal pushes, or any campaign with a hard cap. Monitor daily pacing for the first week to verify the AI distributes spend evenly.",
       "source": "https://blog.google/products/ads-commerce/campaign-total-budgets/",
       "sourceName": "Google Blog",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Budgets",
         "Automation",
@@ -48,7 +48,7 @@
       "action": "Audit any campaigns that were auto-transitioned. Verify the new bid strategy (likely Maximize Conversions or Target CPA) is performing as expected. Adjust targets based on historical eCPC performance.",
       "source": "https://www.wordstream.com/blog/2025-google-ads-updates",
       "sourceName": "WordStream",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Bidding",
         "Deprecation",
@@ -66,7 +66,7 @@
       "action": "Use automated campaigns with broad match to be eligible for AI Overview ad placements. There is no dedicated bidding or targeting for these yet, so focus on strong creative and high ad relevance to win the limited slots.",
       "source": "https://groas.ai/post/ads-in-ai-overviews-the-2026-advertisers-survival-guide",
       "sourceName": "groas.ai",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "AI Overviews",
         "Search",
@@ -84,7 +84,7 @@
       "action": "Trim ad groups to 2 RSAs max. Cut underperforming headlines using the new asset-level reporting. Stop chasing 'Excellent' ad strength - focus on conversion metrics instead.",
       "source": "https://growthmindedmarketing.com/blog/responsive-search-ads/",
       "sourceName": "Growth Minded Marketing",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "RSA",
         "Creative",
@@ -102,7 +102,7 @@
       "action": "Test broad match on your highest-volume campaigns with Smart Bidding. Use the tiered approach: Broad (lab/testing) then Phrase (proven performers) then Exact (brand/high-value). Monitor search term reports weekly.",
       "source": "https://www.searchscientists.com/broad-match-smart-bidding-2025/",
       "sourceName": "Search Scientists",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Broad Match",
         "Smart Bidding",
@@ -120,7 +120,7 @@
       "action": "Add negative keywords to all PMax campaigns immediately. Review channel-level reporting to find where budget is being wasted (often Display/Discover). Consider running Standard Shopping alongside PMax for better control.",
       "source": "https://searchengineland.com/top-performance-max-optimization-tips-461913",
       "sourceName": "Search Engine Land",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "PMax",
         "Negatives",
@@ -138,7 +138,7 @@
       "action": "Check all Demand Gen campaigns for GDN auto-enrollment and opt out if not wanted. For B2B, consider testing Demand Gen since buyers spend only 17% of their journey meeting suppliers - these upper-funnel placements can fill the gap.",
       "source": "https://blog.google/products/ads-commerce/demand-gen-drop-february-2026/",
       "sourceName": "Google Blog",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Demand Gen",
         "Display",
@@ -156,7 +156,7 @@
       "action": "Review Search Partner performance with the new transparency. Default recommendation remains: opt out of SPN unless your data clearly shows it converts. Use account-level exclusions to block known low-quality placements.",
       "source": "https://ppc.land/google-quietly-kills-parked-domain-ads-from-search-partner-network/",
       "sourceName": "PPC Land",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Search Partners",
         "Policy",
@@ -174,7 +174,7 @@
       "action": "Switch to Google native conversion tag if still using GA4 imports. Implement Enhanced Conversions to recover 20-30% of lost signal. Set up server-side tagging. For lead gen, offline conversion tracking is now mandatory for proper bidding.",
       "source": "https://groas.ai/post/google-ads-conversion-tracking-setup-2026-the-complete-guide-ga4-enhanced-conversions-consent-mode",
       "sourceName": "groas.ai",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Conversions",
         "Tracking",
@@ -193,7 +193,7 @@
       "action": "Audit landing page message match for your top ad groups. Ensure the headline, offer, and CTA on the landing page mirror the ad copy. Improve page speed and mobile UX - these signals now carry more weight.",
       "source": "https://www.optmyzr.com/blog/google-ads-quality-score/",
       "sourceName": "Optmyzr",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Quality Score",
         "Landing Pages",
@@ -211,7 +211,7 @@
       "action": "Try Asset Studio for quick creative variations, especially for PMax and Demand Gen asset groups. Upload your brand guidelines to keep AI outputs consistent. Do not rely solely on AI creative - test against human-produced assets.",
       "source": "https://support.google.com/google-ads/answer/16756291",
       "sourceName": "Google Support",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Creative",
         "AI",
@@ -229,7 +229,7 @@
       "action": "Group campaigns with similar goals into portfolio bid strategies with shared budgets. Start with campaigns targeting the same conversion action. Monitor for 2-3 weeks before judging performance.",
       "source": "https://support.google.com/google-ads/answer/10487241?hl=en",
       "sourceName": "Google Support",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Bidding",
         "Budgets",
@@ -247,7 +247,7 @@
       "action": "Shift 80% of your effort to creative operations. Stop splitting audiences manually - consolidate campaigns and let Andromeda find buyers. Test 8-12 distinct creative concepts with 2-3 variations each.",
       "source": "https://www.jonloomer.com/meta-andromeda/",
       "sourceName": "Jon Loomer",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Andromeda",
         "Algorithm",
@@ -266,7 +266,7 @@
       "action": "Increase ad count per ad set gradually. Start with 10-15 ads featuring diverse hooks, formats, and angles. Andromeda rewards true creative variation - copies of the same concept will not help.",
       "source": "https://www.dataslayer.ai/blog/meta-ads-changes-2025-83-updates-that-changed-facebook-advertising-forever",
       "sourceName": "Dataslayer",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Creative Volume",
         "Ad Sets",
@@ -284,7 +284,7 @@
       "action": "Reconsider campaigns you paused for being 'stuck in learning.' With the lower threshold, accounts spending $50-100/day can now exit learning phase reliably. Avoid making changes during the 3-day window.",
       "source": "https://giovanniperilli.com/en/blog/meta-ads-updates-what-really-changed-in-2025-and-how-to-prepare-for-2026/",
       "sourceName": "Giovanni Perilli",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Learning Phase",
         "Optimization",
@@ -302,7 +302,7 @@
       "action": "Test Advantage+ Sales with at least $100/day budget. Set the existing customer cap to 20-30% to avoid over-indexing on retargeting. Compare ROAS against your manual campaigns for 2 weeks before scaling.",
       "source": "https://coinis.com/blog/meta-advantage-plus-ai-ads-updates-2025",
       "sourceName": "Coinis",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Advantage+",
         "ROAS",
@@ -321,7 +321,7 @@
       "action": "Ensure CAPI (Conversions API) is properly implemented with dual-tracking (Pixel + CAPI). Optimize your website checkout flow since all Meta traffic now lands there. Consider third-party attribution tools like Hyros or Triple Whale.",
       "source": "https://www.godatafeed.com/blog/meta-is-dropping-native-checkout-on-facebook-and-instagram",
       "sourceName": "GoDataFeed",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Checkout",
         "CAPI",
@@ -340,7 +340,7 @@
       "action": "Plan creative refreshes every 7-10 days. Build a pipeline of 8-12 core concepts that can be quickly iterated. Monitor CPMr (cost per mille reached) as the earliest fatigue signal - act when it exceeds $20.",
       "source": "https://benly.ai/learn/meta-ads/creative-fatigue-solutions",
       "sourceName": "Benly.ai",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Creative Fatigue",
         "UGC",
@@ -358,7 +358,7 @@
       "action": "Switch to 7-day click attribution as your primary reporting window. Implement CAPI with dual-tracking if you have not already. Use third-party tools (wetracked.io, Hyros, Triple Whale) for a more complete attribution picture.",
       "source": "https://www.wetracked.io/post/what-is-capi-meta-facebook-conversion-api",
       "sourceName": "wetracked.io",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Attribution",
         "CAPI",
@@ -377,7 +377,7 @@
       "action": "Add UGC-style creatives to every campaign. Use the 3-layer testing framework: hook testing (48-72hrs), message validation (5-7 days), then scale optimization. Mix video and static formats - do not ignore static in a video-first world.",
       "source": "https://www.flighted.co/blog/7-meta-ads-creative-strategies-that-work",
       "sourceName": "Flighted",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "UGC",
         "Creative",
@@ -396,7 +396,7 @@
       "action": "Test Advantage+ Leads alongside your existing lead gen campaigns. Use the opportunity scoring to feed quality signals back into the algorithm. Ensure your CRM is connected to pass back lead quality data.",
       "source": "https://www.jonloomer.com/meta-advertising-changes-2025/",
       "sourceName": "Jon Loomer",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Advantage+",
         "Lead Gen",
@@ -414,7 +414,7 @@
       "action": "Test AI backgrounds on your product images - it is free and low-effort. For video, try AI avatars as a supplement to real UGC, not a replacement. Use AI dubbing to test international markets without full localization costs.",
       "source": "https://www.foxwelldigital.com/blog/ai-and-creative-for-meta-ads-in-2025-a-definitive-guide",
       "sourceName": "Foxwell Digital",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "AI Creative",
         "Video Gen",
@@ -432,7 +432,7 @@
       "action": "Stop relying on audience exclusions for targeting precision. Instead, use creative as your targeting lever - specific messaging naturally filters the audience. For existing customer exclusions, use the Advantage+ existing customer budget cap.",
       "source": "https://www.jonloomer.com/meta-ads-targeting-2026/",
       "sourceName": "Jon Loomer",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Targeting",
         "Audiences",
@@ -450,7 +450,7 @@
       "action": "Set up Search Ads campaigns targeting high-intent keywords in your category. Start with brand terms and top product queries. Use search-specific creative that answers questions directly rather than scroll-stopping entertainment content.",
       "source": "https://ads.tiktok.com/business/en-US/blog/search-ads-campaign",
       "sourceName": "TikTok Business",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Search Ads",
         "Keywords",
@@ -468,7 +468,7 @@
       "action": "Test Smart+ with a separate budget alongside manual campaigns. Feed it diverse creative (5-10 variations minimum). Monitor for 7 days before judging - the algorithm needs time to learn, similar to Meta's learning phase.",
       "source": "https://ads.tiktok.com/business/en-US/blog/smart-plus-performance-automation",
       "sourceName": "TikTok Business",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Smart+",
         "Automation",
@@ -486,7 +486,7 @@
       "action": "If selling physical products, set up TikTok Shop and connect your product catalog. Create shoppable video content featuring product demos. Leverage affiliate creators who already produce content in your niche.",
       "source": "https://ads.tiktok.com/business/en-US/blog/tiktok-shop-ads",
       "sourceName": "TikTok Business",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "TikTok Shop",
         "Ecommerce",
@@ -504,7 +504,7 @@
       "action": "Test Symphony avatars for quick creative production, especially for international markets. Use AI-generated scripts as a starting point but customize with your brand voice. Compare performance against real UGC creators.",
       "source": "https://ads.tiktok.com/business/en-US/blog/symphony-creative-ai",
       "sourceName": "TikTok Business",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Symphony",
         "AI Creative",
@@ -522,7 +522,7 @@
       "action": "Implement server-side tracking for all major platforms. Build first-party data collection (email, phone, CRM data) as your core measurement foundation. Use platform-native conversion APIs (CAPI for Meta, Enhanced Conversions for Google).",
       "source": "https://ppcnewsfeed.com/blog/google-consent-mode-explained/",
       "sourceName": "PPC News Feed",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Privacy",
         "Tracking",
@@ -541,7 +541,7 @@
       "action": "Diversify traffic sources beyond organic search. Invest in brand building, email lists, and direct traffic. For SEO, optimize content to be cited BY AI Overviews rather than competing with them. Structure content with clear, quotable answers.",
       "source": "https://searchengineland.com/google-expand-ads-ai-overviews-463273",
       "sourceName": "Search Engine Land",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "AI Overviews",
         "SEO",
@@ -560,7 +560,7 @@
       "action": "Restructure your team and workflow around creative production. Build a system for producing 40-50 ad variations per month at minimum. Invest in creative strategists and UGC networks rather than more media buyers.",
       "source": "https://verdemedia.com/blog/the-guide-to-meta-ads-creative-2026",
       "sourceName": "Verde Media",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Creative Operations",
         "Team Structure",
@@ -578,7 +578,7 @@
       "action": "Implement at least one independent attribution tool (Hyros, Triple Whale, Northbeam). Cross-reference platform-reported conversions with CRM data monthly. Never make budget decisions based solely on platform-reported ROAS.",
       "source": "https://groas.ai/post/the-state-of-google-ads-ai-in-2026-whats-working-whats-broken-and-whats-next",
       "sourceName": "groas.ai",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "Attribution",
         "Measurement",
@@ -597,7 +597,7 @@
       "action": "Invest in Demand Gen, LinkedIn, and content marketing for B2B. Create comparison content, case studies, and ROI calculators that serve the self-research phase. Ensure your brand appears in review sites and industry discussions.",
       "source": "https://www.coseom.com/google-demand-gen-campaigns/",
       "sourceName": "COSEOM",
-      "dateAdded": "2026-03-31",
+      "dateAdded": null,
       "tags": [
         "B2B",
         "Buyer Journey",

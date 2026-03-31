@@ -4,47 +4,68 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Marketing Pulse - Weekly Platform Intelligence</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#0F172A;
-  --card:#1E293B;
-  --card-hover:#263548;
-  --accent:#6366F1;
-  --accent2:#8B5CF6;
-  --warm:#F59E0B;
-  --positive:#10B981;
-  --danger:#EF4444;
-  --text:#F8FAFC;
-  --text2:#94A3B8;
-  --text-muted:#64748B;
-  --border:#334155;
-  --surface:#1E293B;
+  --bg:#F5F5F5;
+  --header-bg:#2D2D2D;
+  --card-bg:#FFFFFF;
+  --card-hover:#FAFAFA;
+  --filter-bg:#FFFFFF;
+  --text-dark:#1A1A1A;
+  --text-secondary:#666666;
+  --text-muted:#999999;
+  --border:#E5E5E5;
+  --accent:#1A1A1A;
   --google:#4285F4;
   --meta:#E040FB;
-  --tiktok:#00F2EA;
+  --tiktok:#00BFA5;
+  --tiktok-bright:#00F2EA;
   --industry:#F59E0B;
-  --linkedin:#0A66C2;
-  --radius:10px;
-  --shadow:0 2px 8px rgba(0,0,0,0.3);
-  --shadow-hover:0 6px 20px rgba(0,0,0,0.4);
+  --high:#EF4444;
+  --medium:#F59E0B;
+  --low:#22C55E;
+  --radius:8px;
+  --shadow:0 1px 3px rgba(0,0,0,0.08);
+  --shadow-hover:0 3px 12px rgba(0,0,0,0.12);
 }
 html{scroll-behavior:smooth}
 body{
-  font-family:Calibri,'Segoe UI',system-ui,-apple-system,sans-serif;
+  font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;
   background:var(--bg);
-  color:var(--text);
+  color:var(--text-dark);
   line-height:1.6;
   min-height:100vh;
 }
 
-/* Top accent bar */
-.accent-bar{height:4px;background:var(--accent);width:100%}
+/* Theme toggle */
+.theme-toggle{
+  display:flex;
+  gap:6px;
+  align-items:center;
+}
+.theme-btn{
+  width:22px;
+  height:22px;
+  border-radius:50%;
+  border:2px solid rgba(255,255,255,0.25);
+  cursor:pointer;
+  transition:border-color 0.2s, transform 0.2s;
+}
+.theme-btn:hover{transform:scale(1.15)}
+.theme-btn.active{border-color:#FFFFFF;box-shadow:0 0 0 2px rgba(255,255,255,0.2)}
+.theme-btn[data-theme="charcoal"]{background:#2D2D2D}
+.theme-btn[data-theme="midnight"]{background:#1A1A2E}
+.theme-btn[data-theme="slate"]{background:#334155}
+.theme-btn[data-theme="forest"]{background:#1B4332}
+.theme-btn[data-theme="navy"]{background:#1E2A4A}
+.theme-label{font-size:10px;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.5px;margin-right:6px}
 
 /* Header */
 .header{
-  background:linear-gradient(180deg,#131c31 0%,var(--bg) 100%);
-  padding:32px 24px 24px;
+  background:var(--header-bg);
+  padding:36px 24px 0;
 }
 .header-inner{
   max-width:1400px;
@@ -56,41 +77,121 @@ body{
   align-items:flex-start;
   flex-wrap:wrap;
   gap:16px;
-  margin-bottom:20px;
+  padding-bottom:24px;
 }
+.header-left{}
 .header-title{
-  font-size:30px;
+  font-size:28px;
   font-weight:700;
-  color:var(--text);
+  color:#FFFFFF;
   letter-spacing:-0.5px;
+  line-height:1.2;
+  margin-bottom:2px;
 }
 .header-tagline{
   font-size:14px;
-  color:var(--text2);
-  margin-top:4px;
+  color:#999999;
+  margin-top:8px;
+  line-height:1.4;
 }
-.header-updated{
-  background:var(--surface);
-  border:1px solid var(--border);
-  border-radius:6px;
-  padding:6px 14px;
+.header-right{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+  gap:10px;
+}
+.header-credit{
   font-size:12px;
-  color:var(--text2);
-  white-space:nowrap;
+  color:#888888;
+  margin-top:6px;
+}
+.header-refresh{
+  font-size:11px;
+  color:#777777;
+  font-style:italic;
+  margin-top:3px;
 }
 
-/* Stat pills */
+/* Day/Night toggle */
+.mode-toggle{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  cursor:pointer;
+  user-select:none;
+}
+.mode-toggle-label{
+  font-size:11px;
+  color:rgba(255,255,255,0.5);
+  font-weight:500;
+}
+.mode-switch{
+  width:40px;
+  height:22px;
+  background:rgba(255,255,255,0.15);
+  border-radius:11px;
+  position:relative;
+  transition:background 0.3s;
+}
+.mode-switch::after{
+  content:'';
+  position:absolute;
+  top:3px;
+  left:3px;
+  width:16px;
+  height:16px;
+  background:#FFFFFF;
+  border-radius:50%;
+  transition:transform 0.3s;
+}
+body.dark-mode .mode-switch{background:rgba(255,255,255,0.3)}
+body.dark-mode .mode-switch::after{transform:translateX(18px)}
+
+/* Dark mode overrides */
+body.dark-mode{
+  --bg:#141414;
+  --card-bg:#1E1E1E;
+  --card-hover:#252525;
+  --filter-bg:#1A1A1A;
+  --text-dark:#F0F0F0;
+  --text-secondary:#AAAAAA;
+  --text-muted:#777777;
+  --border:#333333;
+}
+body.dark-mode .badge-category{background:#2A2A2A;color:#AAAAAA}
+body.dark-mode .action-box{background:#252525}
+body.dark-mode .tag-pill{background:#2A2A2A;color:#888;border-color:#333}
+body.dark-mode .card-summary{color:#999}
+body.dark-mode .action-text{color:#999}
+body.dark-mode .filter-select{background:#1E1E1E;color:#AAA;border-color:#333}
+body.dark-mode .filter-select option{background:#1E1E1E}
+body.dark-mode .search-input{background:#1E1E1E;color:#F0F0F0;border-color:#333}
+body.dark-mode .platform-tab{border-color:#333;color:#888}
+body.dark-mode .platform-tab:hover{border-color:#555;color:#CCC}
+body.dark-mode .site-footer{background:var(--bg)}
+body.dark-mode .site-footer a{color:#AAA}
+.header-updated{
+  background:rgba(255,255,255,0.1);
+  border-radius:20px;
+  padding:6px 16px;
+  font-size:12px;
+  color:#FFFFFF;
+  white-space:nowrap;
+  font-weight:500;
+}
+
+/* Stats row (inside header) */
 .stats-row{
   display:flex;
-  gap:12px;
+  gap:10px;
   flex-wrap:wrap;
-  margin-bottom:10px;
+  padding:22px 0;
+  border-top:1px solid rgba(255,255,255,0.1);
 }
 .stat-pill{
-  background:var(--surface);
-  border:1px solid var(--border);
+  background:rgba(255,255,255,0.08);
   border-radius:8px;
-  padding:10px 18px;
+  padding:12px 20px;
   text-align:center;
   min-width:90px;
 }
@@ -100,39 +201,35 @@ body{
   line-height:1.1;
 }
 .stat-pill .stat-label{
-  font-size:11px;
-  color:var(--text-muted);
+  font-size:10px;
+  color:rgba(255,255,255,0.5);
   text-transform:uppercase;
-  letter-spacing:0.5px;
-  margin-top:2px;
+  letter-spacing:0.8px;
+  margin-top:4px;
+  font-weight:500;
 }
-.stat-num.accent{color:var(--accent)}
+.stat-num.accent{color:#FFFFFF}
 .stat-num.google{color:var(--google)}
 .stat-num.meta{color:var(--meta)}
-.stat-num.tiktok{color:var(--tiktok)}
-.stat-num.industry{color:var(--warm)}
-
-.powered-by{
-  font-size:11px;
-  color:var(--text-muted);
-  margin-top:8px;
-}
+.stat-num.tiktok{color:var(--tiktok-bright)}
+.stat-num.industry{color:var(--industry)}
 
 /* Filter bar */
 .filter-bar{
   position:sticky;
   top:0;
   z-index:100;
-  background:var(--bg);
+  background:var(--filter-bg);
   border-bottom:1px solid var(--border);
   padding:12px 24px;
+  box-shadow:0 1px 2px rgba(0,0,0,0.04);
 }
 .filter-inner{
   max-width:1400px;
   margin:0 auto;
   display:flex;
   align-items:center;
-  gap:12px;
+  gap:10px;
   flex-wrap:wrap;
 }
 .platform-tabs{
@@ -141,47 +238,45 @@ body{
 }
 .platform-tab{
   background:transparent;
-  border:1px solid var(--border);
+  border:1.5px solid var(--border);
   border-radius:6px;
   padding:6px 14px;
   font-size:13px;
-  color:var(--text2);
+  color:var(--text-secondary);
   cursor:pointer;
   transition:all 0.15s ease;
   font-family:inherit;
+  font-weight:500;
 }
 .platform-tab:hover{
-  background:var(--card);
-  color:var(--text);
+  border-color:#CCCCCC;
+  color:var(--text-dark);
 }
 .platform-tab.active{
-  color:#fff;
+  color:#FFFFFF;
   border-color:transparent;
 }
 .platform-tab.active[data-platform="all"]{background:var(--accent)}
 .platform-tab.active[data-platform="google_ads"]{background:var(--google)}
 .platform-tab.active[data-platform="meta_ads"]{background:var(--meta)}
 .platform-tab.active[data-platform="tiktok"]{background:var(--tiktok)}
-.platform-tab.active[data-platform="industry"]{background:var(--warm);color:#0F172A}
+.platform-tab.active[data-platform="industry"]{background:var(--industry);color:var(--text-dark)}
 
 .filter-select{
-  background:var(--surface);
-  border:1px solid var(--border);
+  background:#FFFFFF;
+  border:1.5px solid var(--border);
   border-radius:6px;
   padding:6px 12px;
   font-size:13px;
-  color:var(--text2);
+  color:var(--text-secondary);
   font-family:inherit;
   cursor:pointer;
   appearance:auto;
+  font-weight:500;
 }
 .filter-select:focus{
   outline:none;
-  border-color:var(--accent);
-}
-.filter-select option{
-  background:var(--surface);
-  color:var(--text2);
+  border-color:var(--text-dark);
 }
 
 .search-wrap{
@@ -202,18 +297,19 @@ body{
 }
 .search-input{
   width:100%;
-  background:var(--surface);
-  border:1px solid var(--border);
+  background:#FFFFFF;
+  border:1.5px solid var(--border);
   border-radius:6px;
   padding:6px 12px 6px 30px;
   font-size:13px;
-  color:var(--text);
+  color:var(--text-dark);
   font-family:inherit;
+  font-weight:400;
 }
 .search-input::placeholder{color:var(--text-muted)}
 .search-input:focus{
   outline:none;
-  border-color:var(--accent);
+  border-color:var(--text-dark);
 }
 
 .filter-count{
@@ -221,6 +317,7 @@ body{
   color:var(--text-muted);
   margin-left:auto;
   white-space:nowrap;
+  font-weight:500;
 }
 
 /* Card grid */
@@ -229,91 +326,92 @@ body{
   margin:24px auto;
   padding:0 24px;
   display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(400px,1fr));
+  grid-template-columns:repeat(auto-fill,minmax(420px,1fr));
   gap:16px;
 }
 
 /* Cards */
 .update-card{
-  background:var(--card);
+  background:var(--card-bg);
   border-radius:var(--radius);
-  border-left:4px solid var(--accent);
+  border-left:4px solid var(--border);
   box-shadow:var(--shadow);
   padding:20px;
   cursor:pointer;
-  transition:transform 0.2s ease,box-shadow 0.2s ease;
+  transition:box-shadow 0.2s ease;
   position:relative;
   opacity:0;
   animation:cardIn 0.3s ease forwards;
 }
 .update-card:hover{
-  transform:translateY(-2px);
   box-shadow:var(--shadow-hover);
   background:var(--card-hover);
 }
 .update-card.google_ads{border-left-color:var(--google)}
 .update-card.meta_ads{border-left-color:var(--meta)}
 .update-card.tiktok{border-left-color:var(--tiktok)}
-.update-card.industry{border-left-color:var(--warm)}
+.update-card.industry{border-left-color:var(--industry)}
 
 @keyframes cardIn{
-  from{opacity:0;transform:translateY(8px)}
+  from{opacity:0;transform:translateY(6px)}
   to{opacity:1;transform:translateY(0)}
 }
 
-/* Card top row: badges + severity dot */
+/* Card top row */
 .card-top{
   display:flex;
   align-items:center;
   gap:6px;
   margin-bottom:10px;
+  flex-wrap:wrap;
 }
 .badge{
   display:inline-block;
-  padding:3px 10px;
+  padding:3px 9px;
   border-radius:4px;
-  font-size:11px;
+  font-size:10px;
   font-weight:600;
   text-transform:uppercase;
-  letter-spacing:0.3px;
+  letter-spacing:0.4px;
 }
-.badge-platform{color:var(--text);background:rgba(99,102,241,0.2)}
-.badge-platform.google_ads{background:rgba(66,133,244,0.18);color:var(--google)}
-.badge-platform.meta_ads{background:rgba(224,64,251,0.15);color:var(--meta)}
-.badge-platform.tiktok{background:rgba(0,242,234,0.12);color:var(--tiktok)}
-.badge-platform.industry{background:rgba(245,158,11,0.15);color:var(--warm)}
+.badge-platform{color:var(--google);background:rgba(66,133,244,0.1)}
+.badge-platform.google_ads{background:rgba(66,133,244,0.1);color:var(--google)}
+.badge-platform.meta_ads{background:rgba(224,64,251,0.1);color:var(--meta)}
+.badge-platform.tiktok{background:rgba(0,191,165,0.1);color:var(--tiktok)}
+.badge-platform.industry{background:rgba(245,158,11,0.1);color:var(--industry)}
 
-.badge-impact{
-  background:rgba(99,102,241,0.12);
-  color:var(--accent);
-}
+.badge-impact{}
+.badge-impact.high-impact{background:rgba(239,68,68,0.1);color:var(--high)}
+.badge-impact.medium-impact{background:rgba(245,158,11,0.1);color:var(--medium)}
+.badge-impact.low-impact{background:rgba(34,197,94,0.1);color:var(--low)}
+
 .badge-category{
-  background:rgba(139,92,246,0.12);
-  color:var(--accent2);
+  background:#F0F0F0;
+  color:var(--text-secondary);
 }
 
 .severity-dot{
-  width:10px;
-  height:10px;
+  width:8px;
+  height:8px;
   border-radius:50%;
   margin-left:auto;
   flex-shrink:0;
 }
-.severity-dot.high{background:var(--danger)}
-.severity-dot.medium{background:var(--warm)}
-.severity-dot.low{background:var(--positive)}
+.severity-dot.high{background:var(--high)}
+.severity-dot.medium{background:var(--medium)}
+.severity-dot.low{background:var(--low)}
 
 /* Card content */
 .card-title{
-  font-size:17px;
+  font-size:16px;
   font-weight:700;
-  color:var(--text);
-  line-height:1.35;
+  color:var(--text-dark);
+  line-height:1.3;
   margin-bottom:8px;
 }
 .card-summary{
-  font-size:13px;
-  color:var(--text2);
+  font-size:13.5px;
+  color:#555555;
   line-height:1.6;
   margin-bottom:10px;
 }
@@ -336,22 +434,21 @@ body{
   margin-top:12px;
 }
 .action-box{
-  border:1px solid var(--border);
-  border-radius:8px;
+  border-radius:6px;
   padding:14px;
-  background:rgba(99,102,241,0.04);
+  background:#F8F8F8;
 }
 .action-label{
-  font-size:11px;
+  font-size:10px;
   font-weight:700;
   text-transform:uppercase;
-  letter-spacing:0.5px;
-  color:var(--accent);
+  letter-spacing:0.6px;
+  color:var(--text-dark);
   margin-bottom:6px;
 }
 .action-text{
   font-size:13px;
-  color:var(--text2);
+  color:#555555;
   line-height:1.6;
 }
 
@@ -364,10 +461,12 @@ body{
 }
 .tag-pill{
   font-size:10px;
-  color:var(--text-muted);
+  color:var(--text-secondary);
+  background:#F0F0F0;
   border:1px solid var(--border);
   border-radius:4px;
-  padding:2px 7px;
+  padding:2px 8px;
+  font-weight:500;
 }
 
 /* Card footer */
@@ -377,7 +476,7 @@ body{
   align-items:center;
   margin-top:12px;
   padding-top:10px;
-  border-top:1px solid rgba(51,65,85,0.5);
+  border-top:1px solid var(--border);
 }
 .card-date{
   font-size:11px;
@@ -385,23 +484,38 @@ body{
 }
 .card-source{
   font-size:11px;
-  color:var(--accent);
+  font-weight:500;
   text-decoration:none;
 }
+.card-source.google_ads{color:var(--google)}
+.card-source.meta_ads{color:var(--meta)}
+.card-source.tiktok{color:var(--tiktok)}
+.card-source.industry{color:var(--industry)}
 .card-source:hover{text-decoration:underline}
 
 /* Footer */
 .site-footer{
   text-align:center;
-  padding:40px 24px 32px;
+  padding:48px 24px 36px;
   font-size:12px;
   color:var(--text-muted);
+  background:var(--bg);
+}
+.site-footer-line{
+  margin-bottom:4px;
 }
 .site-footer a{
-  color:var(--accent);
+  color:var(--text-secondary);
   text-decoration:none;
+  font-weight:500;
 }
 .site-footer a:hover{text-decoration:underline}
+.site-footer-refresh{
+  font-style:italic;
+  font-size:11px;
+  color:#BBBBBB;
+  margin-top:6px;
+}
 
 /* No results */
 .no-results{
@@ -415,7 +529,7 @@ body{
 /* Mobile */
 @media(max-width:860px){
   .card-grid{grid-template-columns:1fr;padding:0 12px}
-  .header{padding:20px 12px 16px}
+  .header{padding:20px 12px 0}
   .filter-bar{padding:10px 12px}
   .header-title{font-size:24px}
   .stat-pill{min-width:70px;padding:8px 12px}
@@ -435,19 +549,33 @@ body{
 </head>
 <body>
 
-<div class="accent-bar"></div>
-
 <header class="header">
   <div class="header-inner">
     <div class="header-top">
-      <div>
+      <div class="header-left">
         <div class="header-title">Marketing Pulse</div>
-        <div class="header-tagline">Weekly platform intelligence for marketing teams</div>
+        <div class="header-tagline">Weekly intelligence on what changed across Google, Meta, TikTok, and the marketing industry</div>
+        <div class="header-credit">Built by Shubham Mishra | Supported by Ace Marketer</div>
+        <div class="header-refresh">Automatically refreshes every Monday with fresh updates</div>
       </div>
-      <div class="header-updated" id="lastUpdated"></div>
+      <div class="header-right">
+        <div class="header-updated" id="lastUpdated"></div>
+        <div class="mode-toggle" id="modeToggle" title="Toggle day/night mode">
+          <span class="mode-toggle-label">Day</span>
+          <div class="mode-switch"></div>
+          <span class="mode-toggle-label">Night</span>
+        </div>
+        <div class="theme-toggle" id="themeToggle">
+          <span class="theme-label">Header</span>
+          <div class="theme-btn active" data-theme="charcoal" title="Charcoal"></div>
+          <div class="theme-btn" data-theme="midnight" title="Midnight"></div>
+          <div class="theme-btn" data-theme="slate" title="Slate"></div>
+          <div class="theme-btn" data-theme="forest" title="Forest"></div>
+          <div class="theme-btn" data-theme="navy" title="Navy"></div>
+        </div>
+      </div>
     </div>
     <div class="stats-row" id="statsRow"></div>
-    <div class="powered-by">Powered by Ace Marketer</div>
   </div>
 </header>
 
@@ -492,7 +620,9 @@ body{
 <main class="card-grid" id="cardGrid"></main>
 
 <footer class="site-footer">
-  Powered by Ace Marketer &nbsp;|&nbsp; <a href="https://go4shubham.github.io" target="_blank" rel="noopener">go4shubham.github.io</a>
+  <div class="site-footer-line">Built by Shubham Mishra | Supported by Ace Marketer</div>
+  <div class="site-footer-line"><a href="https://go4shubham.github.io" target="_blank" rel="noopener">go4shubham.github.io</a></div>
+  <div class="site-footer-refresh">Automatically refreshes every Monday with fresh updates</div>
 </footer>
 
 <script>
@@ -502,6 +632,47 @@ var INLINE_DATA = {"lastUpdated":"2026-03-31T09:00:00Z","weekOf":"2026-03-31","u
 <script>
 (function(){
   'use strict';
+
+  // Theme toggles
+  var themeColors = {
+    charcoal: '#2D2D2D',
+    midnight: '#1A1A2E',
+    slate: '#334155',
+    forest: '#1B4332',
+    navy: '#1E2A4A'
+  };
+
+  // Header color toggle
+  document.getElementById('themeToggle').addEventListener('click', function(e) {
+    var btn = e.target.closest('.theme-btn');
+    if (!btn) return;
+    var theme = btn.dataset.theme;
+    document.querySelector('.header').style.background = themeColors[theme];
+    var btns = document.querySelectorAll('.theme-btn');
+    for (var i = 0; i < btns.length; i++) btns[i].classList.remove('active');
+    btn.classList.add('active');
+    try { localStorage.setItem('mp-header-theme', theme); } catch(e){}
+  });
+
+  // Day/Night mode toggle
+  document.getElementById('modeToggle').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+    var isDark = document.body.classList.contains('dark-mode');
+    try { localStorage.setItem('mp-dark-mode', isDark ? '1' : '0'); } catch(e){}
+  });
+
+  // Restore saved preferences
+  try {
+    if (localStorage.getItem('mp-dark-mode') === '1') document.body.classList.add('dark-mode');
+    var savedTheme = localStorage.getItem('mp-header-theme');
+    if (savedTheme && themeColors[savedTheme]) {
+      document.querySelector('.header').style.background = themeColors[savedTheme];
+      var btns = document.querySelectorAll('.theme-btn');
+      for (var i = 0; i < btns.length; i++) {
+        btns[i].classList.toggle('active', btns[i].dataset.theme === savedTheme);
+      }
+    }
+  } catch(e){}
 
   var data = null;
   var activeFilters = {
@@ -578,7 +749,7 @@ var INLINE_DATA = {"lastUpdated":"2026-03-31T09:00:00Z","weekOf":"2026-03-31","u
   function renderLastUpdated() {
     var d = new Date(data.lastUpdated);
     var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-    document.getElementById('lastUpdated').textContent = 'Last updated: ' + months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
+    document.getElementById('lastUpdated').textContent = 'Updated ' + months[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear();
   }
 
   function getFilteredUpdates() {
@@ -607,7 +778,7 @@ var INLINE_DATA = {"lastUpdated":"2026-03-31T09:00:00Z","weekOf":"2026-03-31","u
   function createCard(u, index) {
     var card = document.createElement('div');
     card.className = 'update-card ' + u.platform;
-    card.style.animationDelay = (index * 30) + 'ms';
+    card.style.animationDelay = (index * 20) + 'ms';
 
     var tagsHtml = '';
     if (u.tags && u.tags.length) {
@@ -618,10 +789,12 @@ var INLINE_DATA = {"lastUpdated":"2026-03-31T09:00:00Z","weekOf":"2026-03-31","u
       tagsHtml += '</div>';
     }
 
+    var impactClass = u.impact + '-impact';
+
     card.innerHTML =
       '<div class="card-top">' +
         '<span class="badge badge-platform ' + u.platform + '">' + (platformNames[u.platform] || u.platform) + '</span>' +
-        '<span class="badge badge-impact">' + u.impact + '</span>' +
+        '<span class="badge badge-impact ' + impactClass + '">' + u.impact + '</span>' +
         '<span class="badge badge-category">' + (categoryNames[u.category] || u.category) + '</span>' +
         '<span class="severity-dot ' + u.impact + '"></span>' +
       '</div>' +
@@ -637,7 +810,7 @@ var INLINE_DATA = {"lastUpdated":"2026-03-31T09:00:00Z","weekOf":"2026-03-31","u
       tagsHtml +
       '<div class="card-footer">' +
         '<span class="card-date">' + (u.baseline ? 'Baseline' : formatDate(u.dateAdded)) + '</span>' +
-        '<a class="card-source" href="' + u.source + '" target="_blank" rel="noopener">' + (u.sourceName || 'Source') + '</a>' +
+        '<a class="card-source ' + u.platform + '" href="' + u.source + '" target="_blank" rel="noopener">' + (u.sourceName || 'Source') + '</a>' +
       '</div>';
 
     card.addEventListener('click', function(e) {
