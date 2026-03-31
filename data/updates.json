@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T17:14:37.571Z",
+  "lastUpdated": "2026-03-31T19:21:41.808Z",
   "weekOf": "2026-03-31",
   "updates": [
     {
@@ -8,7 +8,7 @@
       "category": "new_feature",
       "impact": "high",
       "title": "Google AI Mode Now Shows Shopping Ads and Sponsored Stores",
-      "summary": "Google AI Mode, with 75M+ daily active users, now supports shopping ad formats and sponsored stores inside conversational search. Advertisers using PMax, Shopping, and Search broad match (including AI Max) are automatically eligible.",
+      "summary": "Google AI Mode, with 75M+ daily active users, now supports shopping ad formats and sponsored stores inside conversational search. Advertisers using PMax, Shopping, and Search broad match are automatically eligible.",
       "action": "Ensure you are running PMax or Shopping campaigns with broad match to appear in AI Mode. No separate opt-in needed.",
       "source": "https://searchengineland.com/ai-mode-google-next-ads-engine-471967",
       "sourceName": "Search Engine Land",
@@ -24,16 +24,17 @@
       "platform": "google_ads",
       "category": "new_feature",
       "impact": "high",
-      "title": "Performance Max Gets First-Party Audience Exclusions and Budget Reporting",
-      "summary": "PMax now lets you exclude specific customer lists, add budget forecasting reports inside campaigns, and view placement reports segmented by network. Expanded audience reporting with age/gender breakdowns also added.",
-      "action": "Exclude existing customers from PMax to focus on acquisition. Check the new budget report tab to forecast end-of-month spend.",
-      "source": "https://business.google.com/us/accelerate/resources/articles/new-performance-max-steering-and-reporting-updates-coming-in-2026/",
-      "sourceName": "Google Business",
-      "dateAdded": "2026-03-05",
+      "title": "PMax Gets Auto AI Voice-Overs on Video Ads (Opt-Out by Mar 20)",
+      "summary": "Google is auto-enrolling advertisers into an AI voice-over program that narrates PMax video ads using headlines and descriptions. Ads without existing audio get voice enhancement automatically unless you opt out by March 20.",
+      "action": "Check your PMax video ads. If you do not want AI-generated voice-overs, opt out before the deadline. If your videos already have audio, they are not affected.",
+      "source": "https://searchengineland.com/google-ads-adds-ai-voice-over-to-performance-max-video-ads-471156",
+      "sourceName": "Search Engine Land",
+      "dateAdded": "2026-03-09",
       "tags": [
         "PMax",
-        "Audiences",
-        "Reporting"
+        "AI Voice",
+        "Video",
+        "Opt-Out"
       ]
     },
     {
@@ -41,62 +42,12 @@
       "platform": "google_ads",
       "category": "new_feature",
       "impact": "medium",
-      "title": "VRC Non-Skip Ads Go Global for Connected TV",
-      "summary": "VRC Non-Skip ads are now generally available globally in Google Ads and DV360. AI optimizes across 6-second bumpers, 15-second standard, and 30-second CTV-only non-skippable formats for living room YouTube inventory.",
-      "action": "Test VRC Non-Skip for CTV campaigns targeting living room viewers. Let AI optimize across the three format lengths.",
-      "source": "https://almcorp.com/blog/google-ads-updates-2026/",
-      "sourceName": "ALM Corp",
-      "dateAdded": "2026-03-01",
-      "tags": [
-        "CTV",
-        "Video",
-        "Non-Skip"
-      ]
-    },
-    {
-      "id": "gads-004",
-      "platform": "google_ads",
-      "category": "new_feature",
-      "impact": "medium",
-      "title": "Google Ads Editor 2.12: 15 New Features Including PMax Video Limit Increase",
-      "summary": "Editor 2.12 adds 15 features spanning PMax, Demand Gen, Search, Shopping, and cross-account management. PMax asset groups now support up to 15 videos (up from previous limit).",
-      "action": "Update to Editor 2.12. Add more video assets to PMax asset groups to give the algorithm more creative options.",
-      "source": "https://almcorp.com/blog/google-ads-editor-2-12-new-features-2026/",
-      "sourceName": "ALM Corp",
-      "dateAdded": "2026-03-10",
-      "tags": [
-        "Editor",
-        "PMax",
-        "Tools"
-      ]
-    },
-    {
-      "id": "gads-005",
-      "platform": "google_ads",
-      "category": "deprecation",
-      "impact": "medium",
-      "title": "Performance Planner Drops Display and Video Campaign Support",
-      "summary": "As of March 9, Performance Planner no longer supports Display and Video campaigns. Google is repositioning it around conversion-driven types: Search, Shopping, App, Demand Gen, Local, and PMax.",
-      "action": "Stop using Performance Planner for Display/Video forecasting. Use it only for Search, Shopping, and PMax planning.",
-      "source": "https://web.swipeinsight.app/topics/google-ads",
-      "sourceName": "Swipe Insight",
-      "dateAdded": "2026-03-09",
-      "tags": [
-        "Performance Planner",
-        "Deprecation"
-      ]
-    },
-    {
-      "id": "gads-006",
-      "platform": "google_ads",
-      "category": "new_feature",
-      "impact": "medium",
-      "title": "Demand Gen Gets AI Video Generation from Images and Creator Partnerships",
-      "summary": "Google now lets advertisers use Veo AI to generate video content from static images for Demand Gen campaigns. New creator partnership discovery tool lets you find YouTube creators and turn their content into ads.",
-      "action": "Test AI video generation from your best-performing product images. Explore the creator partnership tool for authentic ad content.",
-      "source": "https://www.socialmediatoday.com/news/google-offers-new-demand-gen-ad-campaign-features/815920/",
-      "sourceName": "Social Media Today",
-      "dateAdded": "2026-03-12",
+      "title": "March Demand Gen Drop: AI Video from Images + Creator Partnership Discovery",
+      "summary": "Google launched Veo AI video generation from static images for Demand Gen. New creator partnership tool lets you find YouTube creators and turn their content into ads. Creator assets drive 30% conversion lift on YouTube Shorts on average.",
+      "action": "Test Veo AI video generation from your best product images. Use the creator partnership discovery tool to find authentic ad content.",
+      "source": "https://blog.google/products/ads-commerce/demand-gen-drop-march-2026/",
+      "sourceName": "Google Blog",
+      "dateAdded": "2026-03-26",
       "tags": [
         "Demand Gen",
         "AI Video",
@@ -104,19 +55,20 @@
       ]
     },
     {
-      "id": "gads-007",
+      "id": "gads-004",
       "platform": "google_ads",
-      "category": "policy_change",
-      "impact": "low",
-      "title": "Google Ads Editor 2.9 and Earlier No Longer Supported After March 30",
-      "summary": "Google is ending support for Editor versions 2.9 and earlier. Users must update to continue managing campaigns through the desktop tool.",
-      "action": "Update Google Ads Editor to version 2.12 before March 30.",
-      "source": "https://web.swipeinsight.app/topics/google-ads",
-      "sourceName": "Swipe Insight",
-      "dateAdded": "2026-03-15",
+      "category": "algorithm_update",
+      "impact": "high",
+      "title": "Google March 2026 Core Update Rolling Out",
+      "summary": "Google launched its March 2026 core update alongside a spam update. Semrush Sensor reported Very High keyword volatility for nearly the entire month. Major ranking shifts across all verticals.",
+      "action": "Do not make reactive SEO changes during the rollout. Monitor rankings for 2-3 weeks. Focus on content quality and E-E-A-T signals.",
+      "source": "https://searchengineland.com/google-march-2026-core-update-rolling-out-now-472759",
+      "sourceName": "Search Engine Land",
+      "dateAdded": "2026-03-27",
       "tags": [
-        "Editor",
-        "Deprecation"
+        "Core Update",
+        "SEO",
+        "Volatility"
       ]
     },
     {
@@ -124,12 +76,12 @@
       "platform": "meta_ads",
       "category": "algorithm_update",
       "impact": "high",
-      "title": "Meta Deploys Major AI Delivery System Update: Outcome-Based Optimization",
-      "summary": "In the first week of March, Meta moved from auction-based placement optimization to outcome-based optimization. The system now predicts downstream conversions rather than optimizing for intermediate engagement metrics.",
-      "action": "Expect performance fluctuations as the new system learns. Give campaigns 7-10 days before making changes. Focus on conversion goals, not engagement metrics.",
+      "title": "Meta Shifts to Outcome-Based Optimization: Performance Drops Expected",
+      "summary": "In the first week of March, Meta moved from auction-based placement optimization to outcome-based optimization. The system now predicts downstream conversions rather than optimizing for intermediate engagement metrics. Performance drops reported across accounts.",
+      "action": "Give campaigns 7-10 days before making changes. Focus on conversion goals, not engagement metrics. Compare against CRM data, not platform-reported numbers.",
       "source": "https://www.digitalapplied.com/blog/meta-ads-performance-dropped-march-2026-ai-algorithm-changes",
       "sourceName": "Digital Applied",
-      "dateAdded": "2026-03-07",
+      "dateAdded": "2026-03-08",
       "tags": [
         "Algorithm",
         "AI",
@@ -141,29 +93,12 @@
       "platform": "meta_ads",
       "category": "policy_change",
       "impact": "high",
-      "title": "Meta Click Attribution Now Counts Only Link Clicks, Not All Interactions",
-      "summary": "Click-through attribution now counts only actual link clicks. Non-link interactions (likes, comments, shares) are categorized as engage-through attribution. Combined with engaged-view dropping from 10s to 5s, reported conversions will look different.",
-      "action": "Re-baseline your conversion expectations. Compare new attribution numbers against CRM data to understand the real delta. Do not panic-cut budgets based on the metric shift.",
-      "source": "https://www.1clickreport.com/blog/meta-engaged-view-attribution-2026-guide",
-      "sourceName": "1ClickReport",
-      "dateAdded": "2026-03-10",
-      "tags": [
-        "Attribution",
-        "Metrics",
-        "Reporting"
-      ]
-    },
-    {
-      "id": "meta-003",
-      "platform": "meta_ads",
-      "category": "policy_change",
-      "impact": "high",
       "title": "Meta Ad Policy Crackdown: 34% More Rejections in Health/Wellness/Beauty",
-      "summary": "Meta upgraded its multimodal AI enforcement in Q1 2026 with new rules on misleading claims, personal attributes detection, crypto ad tiers, and blood sugar/diabetes claim restrictions. Rejection rates spiked 34% for health, wellness, and beauty verticals.",
-      "action": "Audit all ad copy in health/wellness/beauty for claims compliance. Remove before/after language, implied diagnoses, and unsubstantiated health claims before they get flagged.",
+      "summary": "Meta upgraded its multimodal AI enforcement in Q1 2026 with new rules on misleading claims, personal attributes detection, crypto ad tiers, and blood sugar/diabetes restrictions. Rejection rates spiked 34% for health, wellness, and beauty verticals.",
+      "action": "Audit all ad copy in health/wellness/beauty for claims compliance. Remove before/after language, implied diagnoses, and unsubstantiated health claims.",
       "source": "https://www.auditsocials.com/blog/meta-ad-policy-updates-2026-guide",
       "sourceName": "AuditSocials",
-      "dateAdded": "2026-03-15",
+      "dateAdded": "2026-03-14",
       "tags": [
         "Policy",
         "Compliance",
@@ -171,33 +106,16 @@
       ]
     },
     {
-      "id": "meta-004",
+      "id": "meta-003",
       "platform": "meta_ads",
       "category": "new_feature",
       "impact": "medium",
-      "title": "WhatsApp Status Ads Auto-Activate in Traffic Campaigns",
-      "summary": "WhatsApp Status ad placement is expanding and now activates automatically in Traffic campaigns optimized for link clicks, daily reach, or impressions when using Advantage+ placements.",
-      "action": "Check your Traffic campaigns for WhatsApp Status placement. Review performance separately. Opt out via placement exclusion if it does not convert for your market.",
-      "source": "https://socialbee.com/blog/facebook-updates/",
-      "sourceName": "SocialBee",
-      "dateAdded": "2026-03-18",
-      "tags": [
-        "WhatsApp",
-        "Placements",
-        "Traffic"
-      ]
-    },
-    {
-      "id": "meta-005",
-      "platform": "meta_ads",
-      "category": "new_feature",
-      "impact": "medium",
-      "title": "Advantage+ Threshold Drops to 25 Conversions/Week, Gets Predictive Budgets",
+      "title": "Advantage+ Sales Threshold Drops to 25 Conversions/Week, Predictive Budgets Added",
       "summary": "Advantage+ Sales now requires only 25 conversions per week to qualify, down from 50. New Predictive Budget Allocation dynamically shifts spend based on predicted conversion probability, reporting 8-15% ROAS improvement.",
-      "action": "Re-evaluate Advantage+ for accounts that previously did not hit the 50 conversion threshold. Enable Predictive Budget Allocation and test for 2 weeks.",
+      "action": "Re-evaluate Advantage+ for accounts that previously could not hit the 50 conversion threshold. Enable Predictive Budget Allocation and test for 2 weeks.",
       "source": "https://optifox.in/blog/meta-ads-best-practices-2026/",
       "sourceName": "OptiFOX",
-      "dateAdded": "2026-03-03",
+      "dateAdded": "2026-03-20",
       "tags": [
         "Advantage+",
         "Budgets",
@@ -205,33 +123,34 @@
       ]
     },
     {
-      "id": "meta-006",
+      "id": "meta-004",
       "platform": "meta_ads",
       "category": "new_feature",
       "impact": "medium",
-      "title": "Describe Your Audience: Natural Language Targeting Inside Advantage+",
-      "summary": "Meta added a plain-text box inside Advantage+ Targeting where you write a description of your ideal customer instead of selecting interest categories. Meta AI interprets the description and builds the targeting.",
-      "action": "Test natural language targeting on one campaign. Describe your ICP in 2-3 sentences. Compare reach and conversion quality against interest-based targeting.",
-      "source": "https://www.outrank.co.uk/latest-news/the-big-meta-ads-shake-up-what-marketers-need-to-know-in-2026/",
-      "sourceName": "Outrank",
-      "dateAdded": "2026-03-20",
+      "title": "Meta NewFronts: Reels Trend Ads, Creator Discovery, AI Creative Tools",
+      "summary": "At IAB NewFronts, Meta announced ad placements aligned with Reels trends, improved creator partnership discovery, and new AI creative tools. Also expanded affiliate program and in-stream checkout options for creators.",
+      "action": "Explore Reels trend-aligned placements for cultural relevance. Use the new creator discovery tools to find authentic content partners.",
+      "source": "https://www.socialmediatoday.com/news/meta-introduces-new-ad-and-discovery-options-at-iab-newfronts/815921/",
+      "sourceName": "Social Media Today",
+      "dateAdded": "2026-03-26",
       "tags": [
-        "Targeting",
-        "AI",
-        "Advantage+"
+        "NewFronts",
+        "Reels",
+        "Creators",
+        "AI"
       ]
     },
     {
-      "id": "meta-007",
+      "id": "meta-005",
       "platform": "meta_ads",
       "category": "policy_change",
       "impact": "medium",
-      "title": "Meta Location Fees (Digital Service Tax) Start April 2026",
-      "summary": "Meta will add Location Fees to cover Digital Service Taxes starting April 2026. Rates: Austria 5%, France 3%, Italy 3%, Spain 3%, Turkey 5%, UK 2%. This increases effective ad costs in those markets.",
+      "title": "Meta Location Fees: Ad Prices Rise in 6 Countries Starting April",
+      "summary": "Meta will add Location Fees to cover Digital Service Taxes starting April 2026. Rates: Austria 5%, France 3%, Italy 3%, Spain 3%, Turkey 5%, UK 2%. Meta will no longer absorb these costs.",
       "action": "Factor Location Fees into budget planning for EU/UK campaigns. Adjust CPA targets upward by the fee percentage for affected countries.",
-      "source": "https://socialbee.com/blog/facebook-updates/",
-      "sourceName": "SocialBee",
-      "dateAdded": "2026-03-22",
+      "source": "https://www.socialmediatoday.com/news/meta-hikes-ad-prices-in-six-countries/814391/",
+      "sourceName": "Social Media Today",
+      "dateAdded": "2026-03-10",
       "tags": [
         "Policy",
         "DST",
@@ -244,12 +163,12 @@
       "platform": "tiktok",
       "category": "new_feature",
       "impact": "high",
-      "title": "TikTok NewFronts 2026: 5 New Premium Ad Formats Including Logo Takeover",
+      "title": "TikTok NewFronts: 5 New Premium Ad Formats Including Logo Takeover",
       "summary": "TikTok unveiled Logo Takeover (brand logo on splash screen), Prime Time (3 sequential ads in 15-min window), TopReach (TopView + TopFeed combined), Pulse Mentions (ads next to brand mentions), and Pulse Tastemakers (ads alongside curated creators).",
-      "action": "Consider Logo Takeover or TopReach for product launches. Test Pulse Mentions to appear next to organic brand conversations. These are premium/high-visibility buys.",
-      "source": "https://newsroom.tiktok.com/newfronts-26-tiktok-unveils-new-high-impact-ad-solutions?lang=en",
-      "sourceName": "TikTok Newsroom",
-      "dateAdded": "2026-03-25",
+      "action": "Consider Logo Takeover or TopReach for product launches. Test Pulse Mentions to appear next to organic brand conversations.",
+      "source": "https://techcrunch.com/2026/03/24/tiktok-ads-are-about-to-get-a-tad-more-disruptive/",
+      "sourceName": "TechCrunch",
+      "dateAdded": "2026-03-24",
       "tags": [
         "NewFronts",
         "Premium Ads",
@@ -257,85 +176,16 @@
       ]
     },
     {
-      "id": "tiktok-002",
-      "platform": "tiktok",
-      "category": "new_feature",
-      "impact": "medium",
-      "title": "TikTok Launches Engaged Session: Pixel-Free Post-Click Tracking",
-      "summary": "New Engaged Session tool tracks users who spend 10+ seconds on a site after clicking an ad, without requiring a pixel. Provides Total Engaged Sessions and Cost per Engaged Session metrics. Available under Traffic objective.",
-      "action": "Enable Engaged Session on Traffic campaigns as a supplementary metric. Useful for advertisers who cannot install the TikTok pixel on their site.",
-      "source": "https://web.swipeinsight.app/topics/tiktok-ads",
-      "sourceName": "Swipe Insight",
-      "dateAdded": "2026-03-14",
-      "tags": [
-        "Tracking",
-        "Measurement",
-        "Pixel-Free"
-      ]
-    },
-    {
       "id": "industry-001",
       "platform": "industry",
       "category": "benchmark",
-      "impact": "high",
-      "title": "ChatGPT Enters Advertising via Programmatic Partnership",
-      "summary": "ChatGPT formally entered the advertising market through a programmatic partnership in March 2026. This opens a new channel for advertisers to reach users inside conversational AI interfaces.",
-      "action": "Monitor ChatGPT ad beta availability. Start thinking about how your brand shows up in AI conversations. Ensure your website content is structured for AI citation.",
-      "source": "https://almcorp.com/blog/digital-marketing-news-march-11-20-2026/",
-      "sourceName": "ALM Corp",
-      "dateAdded": "2026-03-15",
-      "tags": [
-        "ChatGPT",
-        "AI Ads",
-        "Programmatic"
-      ]
-    },
-    {
-      "id": "industry-002",
-      "platform": "industry",
-      "category": "benchmark",
-      "impact": "high",
-      "title": "AI Overviews Crash Paid CTR from 19.7% to 6.34%",
-      "summary": "Studies show paid CTR on queries with AI Overviews dropped from 19.7% to 6.34%. As click volume decreases, CPC rises due to fewer available clicks and increased competition. Zero-click searches are accelerating.",
-      "action": "Diversify beyond search. Invest in brand building, email, and direct traffic. For SEO, optimize to be cited BY AI Overviews. For paid, expect higher CPCs on AI Overview queries.",
-      "source": "https://almcorp.com/blog/digital-marketing-news-march-1-10-2026/",
-      "sourceName": "ALM Corp",
-      "dateAdded": "2026-03-05",
-      "tags": [
-        "AI Overviews",
-        "CTR",
-        "CPC",
-        "Zero-Click"
-      ]
-    },
-    {
-      "id": "industry-003",
-      "platform": "industry",
-      "category": "benchmark",
       "impact": "medium",
-      "title": "Google March 2026 Core Update Causes Extreme SEO Volatility",
-      "summary": "Google launched its March 2026 core update alongside a spam update. Semrush Sensor reported Very High keyword volatility for nearly the entire month. Major ranking shifts across all verticals.",
-      "action": "Do not make reactive SEO changes during the update. Monitor rankings for 2-3 weeks post-rollout. Focus on content quality and E-E-A-T signals.",
-      "source": "https://www.seroundtable.com/video-03-27-2026-41120.html",
-      "sourceName": "SE Roundtable",
-      "dateAdded": "2026-03-27",
-      "tags": [
-        "Core Update",
-        "SEO",
-        "Volatility"
-      ]
-    },
-    {
-      "id": "industry-004",
-      "platform": "industry",
-      "category": "benchmark",
-      "impact": "medium",
-      "title": "HubSpot: Search Is No Longer the Starting Point for Most Buyer Journeys",
-      "summary": "HubSpot 2026 State of Marketing report (1,500+ marketers) found buyers now move through AI tools, social feeds, creator content, communities, and review sites before reaching a brand website. Search is one touchpoint, not the first one.",
+      "title": "HubSpot 2026: Search Is No Longer the Starting Point for Most Buyer Journeys",
+      "summary": "HubSpot 2026 State of Marketing report (1,500+ marketers) found buyers now move through AI tools, social feeds, creator content, communities, and review sites before reaching a brand website.",
       "action": "Map your buyer journey across AI tools, social, review sites, and communities. Invest in presence across all these touchpoints, not just search.",
       "source": "https://seafoammedia.com/march-2026-marketing-news-trends-insights/",
       "sourceName": "Seafoam Media",
-      "dateAdded": "2026-03-20",
+      "dateAdded": "2026-03-02",
       "tags": [
         "Buyer Journey",
         "Research",
@@ -343,7 +193,7 @@
       ]
     },
     {
-      "id": "industry-005",
+      "id": "industry-002",
       "platform": "industry",
       "category": "benchmark",
       "impact": "medium",
@@ -352,7 +202,7 @@
       "action": "If working with any WPP agency, expect structural changes. This signals a broader industry shift toward consolidated, AI-driven agency operations.",
       "source": "https://bostoninstituteofanalytics.org/blog/marketing-trends-news-march-22-28-2026-ai-disruption-meets-brand-reinvention/",
       "sourceName": "Boston Institute of Analytics",
-      "dateAdded": "2026-03-24",
+      "dateAdded": "2026-03-28",
       "tags": [
         "Agency",
         "WPP",
