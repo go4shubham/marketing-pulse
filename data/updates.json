@@ -1,7 +1,42 @@
 {
-  "lastUpdated": "2026-03-31T19:52:47.871Z",
+  "lastUpdated": "2026-03-31T19:55:54.378Z",
   "weekOf": "2026-03-31",
   "updates": [
+    {
+      "id": "gads-mar-005",
+      "platform": "google_ads",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "Google Launches Ads Advisor and Analytics Advisor (Agentic AI Tools)",
+      "summary": "Google introduced two AI agents: Ads Advisor proactively manages campaigns, generates keywords and assets from your website context. Analytics Advisor acts as your data analyst, surfacing insights and guiding measurement decisions.",
+      "action": "Try Ads Advisor for keyword and asset suggestions. Use Analytics Advisor to identify measurement gaps. Available in all English-language accounts.",
+      "source": "https://blog.google/products/ads-commerce/ads-advisor-and-analytics-advisor/",
+      "sourceName": "Google Blog",
+      "dateAdded": "2025-11-12",
+      "tags": [
+        "Agentic AI",
+        "Automation",
+        "Analytics"
+      ]
+    },
+    {
+      "id": "linkedin-jan-001",
+      "platform": "linkedin",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "LinkedIn Reserved Ads, AI Ad Variants, and Dynamic Personalization",
+      "summary": "LinkedIn launched Reserved Ads for guaranteed top-of-feed placement, AI Ad Variants that generate multiple versions from one input, and dynamic ad personalization using profile data (name, job title). Flexible Ad Creation rolling out in early 2026.",
+      "action": "Test Reserved Ads for high-priority B2B campaigns. Use AI Ad Variants to quickly A/B test messaging at scale.",
+      "source": "https://searchengineland.com/linkedin-rolls-out-tools-to-make-b2b-brand-advertising-more-predictable-466019",
+      "sourceName": "Search Engine Land",
+      "dateAdded": "2025-12-10",
+      "tags": [
+        "Reserved Ads",
+        "AI Variants",
+        "Personalization",
+        "B2B"
+      ]
+    },
     {
       "id": "meta-jan-001",
       "platform": "meta_ads",
@@ -122,6 +157,23 @@
       ]
     },
     {
+      "id": "gads-jan-004",
+      "platform": "google_ads",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "Account-Level Placement Exclusions Activated Across All Campaign Types",
+      "summary": "Google activated account-level placement exclusions that apply simultaneously across PMax, Demand Gen, YouTube, and Display. No more replicating exclusion lists per campaign.",
+      "action": "Set up account-level placement exclusions for known low-quality sites. One list now covers all campaign types.",
+      "source": "https://almcorp.com/blog/google-ads-updates-2026/",
+      "sourceName": "ALM Corp",
+      "dateAdded": "2026-01-28",
+      "tags": [
+        "Placements",
+        "Exclusions",
+        "Brand Safety"
+      ]
+    },
+    {
       "id": "meta-jan-004",
       "platform": "meta_ads",
       "category": "benchmark",
@@ -137,23 +189,6 @@
         "Andromeda",
         "Advantage+",
         "Vision"
-      ]
-    },
-    {
-      "id": "gads-jan-004",
-      "platform": "google_ads",
-      "category": "new_feature",
-      "impact": "medium",
-      "title": "Account-Level Placement Exclusions Activated Across All Campaign Types",
-      "summary": "Google activated account-level placement exclusions that apply simultaneously across PMax, Demand Gen, YouTube, and Display. No more replicating exclusion lists per campaign.",
-      "action": "Set up account-level placement exclusions for known low-quality sites. One list now covers all campaign types.",
-      "source": "https://almcorp.com/blog/google-ads-updates-2026/",
-      "sourceName": "ALM Corp",
-      "dateAdded": "2026-01-28",
-      "tags": [
-        "Placements",
-        "Exclusions",
-        "Brand Safety"
       ]
     },
     {
@@ -311,6 +346,24 @@
       ]
     },
     {
+      "id": "linkedin-mar-002",
+      "platform": "linkedin",
+      "category": "best_practice",
+      "impact": "medium",
+      "title": "5 B2B LinkedIn Ads Tests to Run in 2026",
+      "summary": "Search Engine Land published a tactical guide: test Document Ads (CPL $38-82 vs $255+ for image), use conversation ads for mid-funnel, try CTV for reach, leverage AI-generated creative variants, and run lead gen with MAX_QUALIFIED_LEAD optimization.",
+      "action": "Prioritize Document Ads for lead gen. Test MAX_QUALIFIED_LEAD as optimization target. Compare CPL against your current single image ad benchmarks.",
+      "source": "https://searchengineland.com/b2b-linkedin-ads-tests-run-471267",
+      "sourceName": "Search Engine Land",
+      "dateAdded": "2026-03-11",
+      "tags": [
+        "B2B",
+        "Document Ads",
+        "Testing",
+        "Lead Gen"
+      ]
+    },
+    {
       "id": "tiktok-mar-001",
       "platform": "tiktok",
       "category": "policy_change",
@@ -410,6 +463,24 @@
         "TikTok Sale",
         "Uncertainty",
         "Strategy"
+      ]
+    },
+    {
+      "id": "linkedin-mar-001",
+      "platform": "linkedin",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "LinkedIn NewFronts: Top Voices 360, CTV via The Trade Desk, Campaign Renaming",
+      "summary": "LinkedIn announced Top Voices 360 (premium creator sponsorships), a Trade Desk partnership for programmatic CTV ad buying (90% of members watch ad-supported CTV), and renamed Campaign Groups to Campaigns and Campaigns to Ad Sets.",
+      "action": "Explore Top Voices 360 for B2B thought leadership sponsorships. Test CTV ads via The Trade Desk integration. Update internal docs for the Campaign/Ad Set rename.",
+      "source": "https://www.marketingbrew.com/stories/2026/03/25/linkedin-newfront-pitch-ad-updates",
+      "sourceName": "Marketing Brew",
+      "dateAdded": "2026-03-25",
+      "tags": [
+        "NewFronts",
+        "CTV",
+        "Creators",
+        "B2B"
       ]
     },
     {
