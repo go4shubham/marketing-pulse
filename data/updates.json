@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T19:33:38.321Z",
+  "lastUpdated": "2026-03-31T19:52:47.871Z",
   "weekOf": "2026-03-31",
   "updates": [
     {
@@ -8,8 +8,8 @@
       "category": "policy_change",
       "impact": "high",
       "title": "Meta Will Use AI Chat Data for Ad Targeting",
-      "summary": "Meta updated its privacy policy to use data from user interactions with its AI services (Meta AI) for targeted ads across Facebook, Instagram, and Threads.",
-      "action": "Expect richer AI-driven audience signals. Advertisers do not need to act, but be aware users may push back on this change.",
+      "summary": "Meta updated its privacy policy to use data from user interactions with Meta AI for targeted ads across Facebook, Instagram, and Threads. This gives Meta a new signal layer from AI conversations.",
+      "action": "Expect richer AI-driven audience signals. No action needed from advertisers, but be aware users may push back publicly.",
       "source": "https://gizmodo.com/metas-new-privacy-policy-opens-up-ai-chats-for-targeted-ads-2000704852",
       "sourceName": "Gizmodo",
       "dateAdded": "2026-01-02",
@@ -25,15 +25,15 @@
       "category": "policy_change",
       "impact": "high",
       "title": "TikTok Ownership Uncertainty: Marketers Brace for 2026 Whiplash",
-      "summary": "Following the US TikTok ban scare and sale process, marketers entered 2026 cautious about committing ad budgets. Many paused or diversified spend to Reels and YouTube Shorts as contingency.",
-      "action": "Maintain a diversified short-video strategy across TikTok, Reels, and Shorts. Do not over-concentrate budget on any single platform.",
+      "summary": "Following the US TikTok ban scare and sale process, marketers entered 2026 cautious about committing ad budgets. Many diversified spend to Reels and YouTube Shorts as contingency.",
+      "action": "Maintain diversified short-video strategy across TikTok, Reels, and Shorts. Do not over-concentrate budget on any single platform.",
       "source": "https://digiday.com/marketing/after-watching-xs-ownership-issues-play-out-marketers-brace-for-tiktok-whiplash-in-2026/",
       "sourceName": "Digiday",
       "dateAdded": "2026-01-02",
       "tags": [
         "TikTok Ban",
-        "Uncertainty",
-        "Budget"
+        "Budget",
+        "Diversification"
       ]
     },
     {
@@ -42,8 +42,8 @@
       "category": "new_feature",
       "impact": "medium",
       "title": "Partnership Ads Hub: Auto-Surface UGC, Affiliate, and Creator Posts",
-      "summary": "Meta's updated Partnership Ads Hub automatically surfaces Instagram UGC, affiliate content, and creator posts that mention your brand. Professional Mode profiles are now eligible, and creators can share ad codes instantly.",
-      "action": "Check the Partnership Ads Hub in Ads Manager. Look for organic creator content you can amplify as paid ads without additional creator outreach.",
+      "summary": "Meta's Partnership Ads Hub now automatically surfaces Instagram UGC, affiliate content, and creator posts that mention your brand. Professional Mode profiles are eligible, and creators can share ad codes instantly.",
+      "action": "Check Partnership Ads Hub in Ads Manager. Look for organic creator content you can amplify as paid ads.",
       "source": "https://www.socialnative.com/articles/meta-partnership-ads-updates-how-brands-can-capitalize-in-2026/",
       "sourceName": "Social Native",
       "dateAdded": "2026-01-07",
@@ -54,13 +54,30 @@
       ]
     },
     {
+      "id": "meta-jan-003",
+      "platform": "meta_ads",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "Threads Ads Launch Globally with 400M+ Monthly Users",
+      "summary": "Ads on Threads launched globally on January 21, 2026. With 400+ million monthly active users, Threads is now a viable placement for both Advantage+ and manual campaigns.",
+      "action": "Test Threads as a placement in your existing campaigns. Monitor CPM and engagement rates vs Instagram/Facebook placements.",
+      "source": "https://socialbee.com/blog/facebook-updates/",
+      "sourceName": "SocialBee",
+      "dateAdded": "2026-01-21",
+      "tags": [
+        "Threads",
+        "Placements",
+        "New Channel"
+      ]
+    },
+    {
       "id": "gads-jan-001",
       "platform": "google_ads",
       "category": "policy_change",
       "impact": "medium",
       "title": "Google Opens Ads for Prediction Markets (CFTC-Regulated Only)",
-      "summary": "Google now permits ads for prediction markets in the US, but only for federally regulated entities authorized by the CFTC as Designated Contract Markets or by the NFA as brokerages. Effective January 21.",
-      "action": "If you operate a regulated prediction market, you can now advertise on Google. All others remain blocked.",
+      "summary": "Google now permits ads for prediction markets in the US, but only for entities regulated by the CFTC or authorized by the NFA. Effective January 21.",
+      "action": "Only relevant if you operate a regulated prediction market. All others remain blocked.",
       "source": "https://support.google.com/adspolicy/answer/16749907?hl=en",
       "sourceName": "Google Ads Policy",
       "dateAdded": "2026-01-21",
@@ -75,8 +92,8 @@
       "category": "deprecation",
       "impact": "medium",
       "title": "Call-Only Ads: No New Creation, Full Phase-Out by Feb 2027",
-      "summary": "Google removed the ability to create new call-only ads. Existing ones continue serving until February 2027 when they stop receiving impressions entirely.",
-      "action": "Migrate all call-only ads to responsive search ads with call assets now. Do not wait for the 2027 deadline.",
+      "summary": "Google removed the ability to create new call-only ads. Existing call-only ads continue serving until February 2027 when they stop receiving impressions entirely.",
+      "action": "Migrate all call-only ads to responsive search ads with call assets now.",
       "source": "https://www.symphonicdigital.com/blog/google-ads-playbook-for-2026",
       "sourceName": "Symphonic Digital",
       "dateAdded": "2026-01-22",
@@ -87,16 +104,16 @@
       ]
     },
     {
-      "id": "gads-feb-001",
+      "id": "gads-jan-003",
       "platform": "google_ads",
       "category": "new_feature",
       "impact": "high",
-      "title": "Google Ads API v23: Channel-Level Reporting for PMax Finally Here",
-      "summary": "API v23 introduces channel-level reporting for Performance Max, showing how PMax distributes spend across Search, YouTube, Display, Gmail, Discover, and Maps. Turns PMax from a black box into a transparent campaign type.",
-      "action": "Ensure your tools or scripts are updated to API v23. Pull channel-level reports to see where PMax is actually spending. API v19 stopped working Feb 11.",
+      "title": "Google Ads API v23: Channel-Level Reporting for PMax",
+      "summary": "API v23 released January 28. Introduces channel-level reporting for PMax showing spend distribution across Search, YouTube, Display, Gmail, Discover, and Maps. PMax is no longer a black box.",
+      "action": "Update your tools to API v23. Pull channel-level reports to see where PMax is spending. Old API v19 stopped working Feb 11.",
       "source": "https://groas.ai/post/google-ads-updates-february-2026-everything-that-changed-this-month",
       "sourceName": "groas.ai",
-      "dateAdded": "2026-02-09",
+      "dateAdded": "2026-01-28",
       "tags": [
         "API",
         "PMax",
@@ -105,20 +122,91 @@
       ]
     },
     {
-      "id": "gads-feb-002",
+      "id": "meta-jan-004",
+      "platform": "meta_ads",
+      "category": "benchmark",
+      "impact": "high",
+      "title": "Meta: 2026 is the Year AI Drives Performance",
+      "summary": "Meta published its 2026 vision: AI will drive ad performance through Andromeda (creative-based targeting), Advantage+ automation as default for all objectives, and AI creative tools at scale.",
+      "action": "Shift creative production to feed Andromeda. Consolidate campaigns into Advantage+. Test AI creative tools (backgrounds, video gen).",
+      "source": "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
+      "sourceName": "Meta Newsroom",
+      "dateAdded": "2026-01-29",
+      "tags": [
+        "AI",
+        "Andromeda",
+        "Advantage+",
+        "Vision"
+      ]
+    },
+    {
+      "id": "gads-jan-004",
       "platform": "google_ads",
       "category": "new_feature",
       "impact": "medium",
-      "title": "Meridian Scenario Planner: No-Code Budget Forecasting with Projected ROI",
-      "summary": "Google expanded Meridian with Scenario Planner, a no-code interface to test budget scenarios and view projected ROI outcomes in real time. Aimed at replacing the gaps left by Performance Planner changes.",
-      "action": "Try Meridian Scenario Planner for cross-channel budget planning. Compare its projections against your actual performance data before relying on it.",
+      "title": "Account-Level Placement Exclusions Activated Across All Campaign Types",
+      "summary": "Google activated account-level placement exclusions that apply simultaneously across PMax, Demand Gen, YouTube, and Display. No more replicating exclusion lists per campaign.",
+      "action": "Set up account-level placement exclusions for known low-quality sites. One list now covers all campaign types.",
+      "source": "https://almcorp.com/blog/google-ads-updates-2026/",
+      "sourceName": "ALM Corp",
+      "dateAdded": "2026-01-28",
+      "tags": [
+        "Placements",
+        "Exclusions",
+        "Brand Safety"
+      ]
+    },
+    {
+      "id": "tiktok-feb-001",
+      "platform": "tiktok",
+      "category": "policy_change",
+      "impact": "medium",
+      "title": "Universal Music Group Pulls All Tracks from TikTok",
+      "summary": "UMG removed its entire catalog from TikTok as of February 1 after failing to reach a licensing agreement. This affects any ads using UMG-licensed music.",
+      "action": "Audit your TikTok ad creative for UMG tracks. Replace with royalty-free or licensed alternatives from TikTok's Commercial Music Library.",
+      "source": "https://www.jckonline.com/editorial-article/social-media-updates-feb-26",
+      "sourceName": "JCK Online",
+      "dateAdded": "2026-02-09",
+      "tags": [
+        "Music",
+        "UMG",
+        "Creative",
+        "Licensing"
+      ]
+    },
+    {
+      "id": "gads-feb-001",
+      "platform": "google_ads",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "PMax Channel-Level Reporting Goes Live + Meridian Scenario Planner",
+      "summary": "PMax channel reporting is now live in the UI (not just API). Separately, Google expanded Meridian with Scenario Planner - a no-code tool to test budget scenarios and view projected ROI in real time.",
+      "action": "Check PMax channel reports in the UI. Test Meridian Scenario Planner for cross-channel budget planning.",
       "source": "https://groas.ai/post/google-ads-updates-february-2026-everything-that-changed-this-month",
       "sourceName": "groas.ai",
       "dateAdded": "2026-02-09",
       "tags": [
+        "PMax",
+        "Reporting",
         "Meridian",
-        "Budget",
-        "Planning"
+        "Budget"
+      ]
+    },
+    {
+      "id": "gads-feb-002",
+      "platform": "google_ads",
+      "category": "policy_change",
+      "impact": "medium",
+      "title": "Parked Domains Permanently Removed from Search Partner Network",
+      "summary": "On February 10, Google permanently removed parked domains (AdSense for Domains) from the Search Partner Network. One of the most criticized low-quality inventory sources is gone.",
+      "action": "Re-evaluate Search Partners performance now that parked domains are removed. Still default to opt-out unless data proves otherwise.",
+      "source": "https://ppc.land/google-quietly-kills-parked-domain-ads-from-search-partner-network/",
+      "sourceName": "PPC Land",
+      "dateAdded": "2026-02-17",
+      "tags": [
+        "Search Partners",
+        "Quality",
+        "Parked Domains"
       ]
     },
     {
@@ -126,9 +214,9 @@
       "platform": "meta_ads",
       "category": "new_feature",
       "impact": "medium",
-      "title": "Meta Graph API v25.0: Unified Advantage+ Campaign API, Async Error Reporting",
-      "summary": "Graph API v25.0 launched Feb 18 with enhanced async error reporting for Ads Insights API. Old ASC and AAC APIs deprecated - must migrate to the unified Advantage+ campaign API.",
-      "action": "If using Meta Marketing API directly, migrate from ASC/AAC endpoints to the unified Advantage+ campaign API before the old ones stop working.",
+      "title": "Graph API v25.0: Unified Advantage+ API, Old ASC/AAC Deprecated",
+      "summary": "Graph API v25.0 launched Feb 18 with enhanced async error reporting. Old ASC and AAC APIs are deprecated - all campaigns must migrate to the unified Advantage+ campaign API.",
+      "action": "If using Meta Marketing API, migrate from ASC/AAC endpoints to unified Advantage+ API before deprecation deadline.",
       "source": "https://www.usewonderful.com/blog/meta-ads-updates-february-2026",
       "sourceName": "Wonderful",
       "dateAdded": "2026-02-28",
@@ -145,7 +233,7 @@
       "impact": "medium",
       "title": "Ad Sequencing Rolls Out to Auction Campaigns (14-17x Conversion Lift)",
       "summary": "Ad sequencing is no longer reservation-only. Now available for auction campaigns. Early data shows 14-17x conversion lift for controlled 2-3 ad sequences.",
-      "action": "Test 2-3 ad sequences in your auction campaigns. Tell a story: problem > solution > proof. Measure conversion lift against non-sequenced campaigns.",
+      "action": "Test 2-3 ad sequences in auction campaigns. Story arc: problem > solution > proof.",
       "source": "https://www.usewonderful.com/blog/meta-ads-updates-february-2026",
       "sourceName": "Wonderful",
       "dateAdded": "2026-02-28",
@@ -156,30 +244,13 @@
       ]
     },
     {
-      "id": "tiktok-feb-001",
-      "platform": "tiktok",
-      "category": "new_feature",
-      "impact": "medium",
-      "title": "Smart+ Creative Automation: Auto-Select High-Performing Ads",
-      "summary": "Creative for Smart+ brings automation to the creative process. Auto-select scans existing ads and eligible creator content from TikTok One to recommend high-performing creatives aligned with your brand goals.",
-      "action": "Enable Smart+ Creative auto-select on App campaigns. Feed it diverse creative and let it pick winners. Compare against manual creative selection.",
-      "source": "https://disruptmarketing.co/blog/tiktok-updates/",
-      "sourceName": "Disrupt Marketing",
-      "dateAdded": "2026-03-01",
-      "tags": [
-        "Smart+",
-        "Creative",
-        "Automation"
-      ]
-    },
-    {
       "id": "industry-mar-001",
       "platform": "industry",
       "category": "benchmark",
       "impact": "medium",
       "title": "HubSpot 2026: Search Is No Longer the Starting Point for Buyer Journeys",
       "summary": "HubSpot State of Marketing 2026 (1,500+ marketers) found buyers now move through AI tools, social, creator content, communities, and review sites before reaching a brand website.",
-      "action": "Map your buyer journey across AI tools, social, review sites, and communities.",
+      "action": "Map your buyer journey across AI tools, social, review sites, and communities. Invest in presence beyond search.",
       "source": "https://seafoammedia.com/march-2026-marketing-news-trends-insights/",
       "sourceName": "Seafoam Media",
       "dateAdded": "2026-03-02",
@@ -195,7 +266,7 @@
       "impact": "high",
       "title": "Meta Shifts to Outcome-Based Optimization: Performance Drops Expected",
       "summary": "In the first week of March, Meta moved from auction-based placement optimization to outcome-based optimization. The system now predicts downstream conversions rather than optimizing for engagement.",
-      "action": "Give campaigns 7-10 days before making changes. Focus on conversion goals, not engagement metrics.",
+      "action": "Give campaigns 7-10 days before making changes. Compare against CRM data, not platform numbers.",
       "source": "https://www.digitalapplied.com/blog/meta-ads-performance-dropped-march-2026-ai-algorithm-changes",
       "sourceName": "Digital Applied",
       "dateAdded": "2026-03-08",
@@ -206,13 +277,13 @@
       ]
     },
     {
-      "id": "gads-mar-002",
+      "id": "gads-mar-001",
       "platform": "google_ads",
       "category": "new_feature",
       "impact": "high",
       "title": "PMax Gets Auto AI Voice-Overs on Video Ads (Opt-Out by Mar 20)",
-      "summary": "Google is auto-enrolling advertisers into an AI voice-over program that narrates PMax video ads using headlines and descriptions. Ads without existing audio get voice enhancement automatically unless you opt out.",
-      "action": "Check your PMax video ads. If you do not want AI-generated voice-overs, opt out before the deadline.",
+      "summary": "Google is auto-enrolling advertisers into an AI voice-over program for PMax video ads. Ads without existing audio get voice enhancement automatically unless you opt out.",
+      "action": "Check PMax video ads. Opt out before March 20 if you do not want AI voice-overs.",
       "source": "https://searchengineland.com/google-ads-adds-ai-voice-over-to-performance-max-video-ads-471156",
       "sourceName": "Search Engine Land",
       "dateAdded": "2026-03-09",
@@ -223,7 +294,7 @@
       ]
     },
     {
-      "id": "meta-mar-005",
+      "id": "meta-mar-002",
       "platform": "meta_ads",
       "category": "policy_change",
       "impact": "medium",
@@ -240,12 +311,29 @@
       ]
     },
     {
-      "id": "meta-mar-002",
+      "id": "tiktok-mar-001",
+      "platform": "tiktok",
+      "category": "policy_change",
+      "impact": "high",
+      "title": "TikTok New Ownership Rules: First-Party Data Required, AI Endorsements Banned",
+      "summary": "Under new ownership, TikTok now requires advertisers to use first-party data through Events API, verify business registration, and bans all AI-generated endorsements in ads.",
+      "action": "Verify business registration in TikTok Ads Manager. Switch to Events API. Remove any AI-generated testimonials from creative.",
+      "source": "https://www.digitalapplied.com/blog/tiktok-new-ownership-advertising-rebuilding-2026-rules",
+      "sourceName": "Digital Applied",
+      "dateAdded": "2026-03-13",
+      "tags": [
+        "Policy",
+        "AI Ban",
+        "Verification"
+      ]
+    },
+    {
+      "id": "meta-mar-003",
       "platform": "meta_ads",
       "category": "policy_change",
       "impact": "high",
       "title": "Meta Ad Policy Crackdown: 34% More Rejections in Health/Wellness/Beauty",
-      "summary": "Meta upgraded multimodal AI enforcement in Q1 2026 with new rules on misleading claims, personal attributes, crypto tiers, and diabetes restrictions. Rejection rates spiked 34% in health/wellness/beauty.",
+      "summary": "Meta upgraded multimodal AI enforcement in Q1 2026. New rules on misleading claims, personal attributes, crypto tiers, and diabetes restrictions. Rejection rates spiked 34% in health/wellness/beauty.",
       "action": "Audit all health/wellness/beauty ad copy for compliance. Remove before/after language and unsubstantiated claims.",
       "source": "https://www.auditsocials.com/blog/meta-ad-policy-updates-2026-guide",
       "sourceName": "AuditSocials",
@@ -257,13 +345,13 @@
       ]
     },
     {
-      "id": "gads-mar-001",
+      "id": "gads-mar-002",
       "platform": "google_ads",
       "category": "new_feature",
       "impact": "high",
       "title": "Google AI Mode Now Shows Shopping Ads and Sponsored Stores",
-      "summary": "Google AI Mode, with 75M+ daily active users, now supports shopping ad formats and sponsored stores inside conversational search. Advertisers using PMax, Shopping, and Search broad match are automatically eligible.",
-      "action": "Ensure you are running PMax or Shopping campaigns with broad match to appear in AI Mode. No separate opt-in needed.",
+      "summary": "Google AI Mode (75M+ daily users) now supports shopping ads and sponsored stores inside conversational search. PMax, Shopping, and Search broad match advertisers are automatically eligible.",
+      "action": "Ensure you run PMax or Shopping with broad match to appear in AI Mode. No separate opt-in needed.",
       "source": "https://searchengineland.com/ai-mode-google-next-ads-engine-471967",
       "sourceName": "Search Engine Land",
       "dateAdded": "2026-03-19",
@@ -274,7 +362,7 @@
       ]
     },
     {
-      "id": "meta-mar-003",
+      "id": "meta-mar-004",
       "platform": "meta_ads",
       "category": "new_feature",
       "impact": "medium",
@@ -291,13 +379,13 @@
       ]
     },
     {
-      "id": "tiktok-mar-001",
+      "id": "tiktok-mar-002",
       "platform": "tiktok",
       "category": "new_feature",
       "impact": "high",
       "title": "TikTok NewFronts: 5 New Premium Ad Formats Including Logo Takeover",
-      "summary": "TikTok unveiled Logo Takeover, Prime Time (3 sequential ads in 15-min window), TopReach (TopView + TopFeed), Pulse Mentions, and Pulse Tastemakers at NewFronts 2026.",
-      "action": "Consider Logo Takeover or TopReach for launches. Test Pulse Mentions to appear next to organic brand conversations.",
+      "summary": "TikTok unveiled Logo Takeover, Prime Time (3 sequential ads in 15-min window), TopReach (TopView + TopFeed), Pulse Mentions, and Pulse Tastemakers.",
+      "action": "Consider Logo Takeover or TopReach for product launches. Test Pulse Mentions to appear alongside brand conversations.",
       "source": "https://techcrunch.com/2026/03/24/tiktok-ads-are-about-to-get-a-tad-more-disruptive/",
       "sourceName": "TechCrunch",
       "dateAdded": "2026-03-24",
@@ -308,13 +396,30 @@
       ]
     },
     {
+      "id": "tiktok-mar-003",
+      "platform": "tiktok",
+      "category": "benchmark",
+      "impact": "medium",
+      "title": "TikTok Post-Sale: Advertising Questions Remain Despite US Joint Venture",
+      "summary": "TikTok sealed its US deal but advertisers still face questions: data handling under new ownership, potential ad policy shifts, and whether the platform can regain paused brand budgets.",
+      "action": "Resume TikTok investment cautiously. Monitor policy changes monthly. Keep contingency budgets on Reels/Shorts.",
+      "source": "https://basis.com/blog/tiktok-advertising-in-2026-what-questions-remain-post-sale",
+      "sourceName": "Basis",
+      "dateAdded": "2026-03-25",
+      "tags": [
+        "TikTok Sale",
+        "Uncertainty",
+        "Strategy"
+      ]
+    },
+    {
       "id": "gads-mar-003",
       "platform": "google_ads",
       "category": "new_feature",
       "impact": "medium",
       "title": "March Demand Gen Drop: AI Video from Images + Creator Partnerships",
-      "summary": "Google launched Veo AI video generation from static images for Demand Gen. Creator partnership tool finds YouTube creators and turns their content into ads. Creator assets drive 30% conversion lift on Shorts.",
-      "action": "Test Veo AI video generation from your best product images. Use the creator discovery tool for authentic content.",
+      "summary": "Google launched Veo AI video generation from static images for Demand Gen. Creator assets drive 30% conversion lift on YouTube Shorts on average.",
+      "action": "Test Veo AI video from your best product images. Use creator discovery tool for authentic content.",
       "source": "https://blog.google/products/ads-commerce/demand-gen-drop-march-2026/",
       "sourceName": "Google Blog",
       "dateAdded": "2026-03-26",
@@ -325,13 +430,13 @@
       ]
     },
     {
-      "id": "meta-mar-004",
+      "id": "meta-mar-005",
       "platform": "meta_ads",
       "category": "new_feature",
       "impact": "medium",
       "title": "Meta NewFronts: Reels Trend Ads, Creator Discovery, AI Creative Tools",
-      "summary": "At IAB NewFronts, Meta announced ad placements aligned with Reels trends, improved creator partnership discovery, new AI creative tools, and expanded affiliate/in-stream checkout options.",
-      "action": "Explore Reels trend-aligned placements. Use the new creator discovery tools for authentic content.",
+      "summary": "Meta announced ad placements aligned with Reels trends, improved creator partnership discovery, new AI creative tools, and expanded affiliate/in-stream checkout options.",
+      "action": "Explore Reels trend-aligned placements. Use new creator discovery tools.",
       "source": "https://www.socialmediatoday.com/news/meta-introduces-new-ad-and-discovery-options-at-iab-newfronts/815921/",
       "sourceName": "Social Media Today",
       "dateAdded": "2026-03-26",
@@ -342,30 +447,13 @@
       ]
     },
     {
-      "id": "tiktok-feb-002",
-      "platform": "tiktok",
-      "category": "policy_change",
-      "impact": "high",
-      "title": "TikTok Bans AI-Generated Endorsements, Requires Business Verification",
-      "summary": "Under new ownership rules, TikTok now requires all advertisers to use first-party data through Events API, verify business registration, and bans AI-generated endorsements in ads.",
-      "action": "Verify your business registration in TikTok Ads Manager. Switch to Events API for conversion tracking. Remove any AI-generated testimonials or endorsements from ad creative.",
-      "source": "https://www.ingeniom.com/post/tiktok-ad-policy-changes-2026-new-ownership-rules",
-      "sourceName": "Ingeniom",
-      "dateAdded": "2026-03-27",
-      "tags": [
-        "Policy",
-        "AI Ban",
-        "Verification"
-      ]
-    },
-    {
       "id": "gads-mar-004",
       "platform": "google_ads",
       "category": "algorithm_update",
       "impact": "high",
       "title": "Google March 2026 Core Update Rolling Out",
       "summary": "Google launched its March 2026 core update alongside a spam update. Semrush Sensor reported Very High keyword volatility for nearly the entire month.",
-      "action": "Do not make reactive SEO changes during the rollout. Monitor rankings for 2-3 weeks. Focus on content quality and E-E-A-T signals.",
+      "action": "Do not make reactive SEO changes. Monitor rankings for 2-3 weeks. Focus on content quality and E-E-A-T.",
       "source": "https://searchengineland.com/google-march-2026-core-update-rolling-out-now-472759",
       "sourceName": "Search Engine Land",
       "dateAdded": "2026-03-27",
@@ -382,13 +470,30 @@
       "impact": "medium",
       "title": "WPP Dissolves Holding Company Model: Merges Ogilvy, VML, AKQA",
       "summary": "WPP announced Elevate28, consolidating Ogilvy, VML, AKQA, and WPP Media under one structure. Targeting 500M GBP savings by 2028.",
-      "action": "If working with any WPP agency, expect structural changes. Signals a broader shift toward AI-driven agency operations.",
+      "action": "If working with any WPP agency, expect structural changes. Signals industry shift toward AI-driven operations.",
       "source": "https://bostoninstituteofanalytics.org/blog/marketing-trends-news-march-22-28-2026-ai-disruption-meets-brand-reinvention/",
       "sourceName": "Boston Institute of Analytics",
       "dateAdded": "2026-03-28",
       "tags": [
         "Agency",
         "WPP"
+      ]
+    },
+    {
+      "id": "tiktok-mar-004",
+      "platform": "tiktok",
+      "category": "policy_change",
+      "impact": "medium",
+      "title": "TikTok 2026 Rules: Commercial Disclosure Mandatory, Restricted Category Pre-Approvals",
+      "summary": "Commercial content disclosure is now mandatory for all promotional posts using TikTok's built-in tools. Restricted categories require strict pre-approvals. New Travel Ads solution launched.",
+      "action": "Ensure all branded content uses TikTok's disclosure tools. Check if your category needs pre-approval.",
+      "source": "https://www.darkroomagency.com/observatory/what-brands-need-to-know-about-tiktok-new-rules-2026",
+      "sourceName": "Darkroom Agency",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Policy",
+        "Disclosure",
+        "Travel Ads"
       ]
     }
   ]
