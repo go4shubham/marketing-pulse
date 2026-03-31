@@ -1,0 +1,609 @@
+{
+  "lastUpdated": "2026-03-31T09:00:00Z",
+  "weekOf": "2026-03-31",
+  "updates": [
+    {
+      "id": "gads-2026-03-28-001",
+      "platform": "google_ads",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "AI Max for Search Rolls Out to All Advertisers",
+      "summary": "Google's fastest-growing AI Search product combines keywordless matching, AI-generated headlines, and final URL expansion into one opt-in package. Google claims 14% more conversions at similar CPA, but independent testing from groas.ai shows 35% lower ROAS vs traditional campaigns.",
+      "action": "Test AI Max on one campaign with a controlled budget. Keep a traditional campaign running in parallel to benchmark real performance. Opt into each component separately.",
+      "source": "https://almcorp.com/blog/google-ai-max-text-guidelines-all-advertisers-2026/",
+      "sourceName": "ALM Corp",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "AI Max",
+        "Automation",
+        "Search"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "gads-2026-03-25-002",
+      "platform": "google_ads",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "Campaign Total Budgets Launch for Search Ads",
+      "summary": "New budget type lets advertisers set a fixed spend over 3-90 days. Google's AI paces daily spend to hit the total. Launched January 2026, now available in all accounts. Eliminates daily budget overspend surprises.",
+      "action": "Use Campaign Total Budgets for time-bound promotions, seasonal pushes, or any campaign with a hard cap. Monitor daily pacing for the first week to verify the AI distributes spend evenly.",
+      "source": "https://blog.google/products/ads-commerce/campaign-total-budgets/",
+      "sourceName": "Google Blog",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Budgets",
+        "Automation",
+        "Search"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "gads-2026-03-24-003",
+      "platform": "google_ads",
+      "category": "deprecation",
+      "impact": "high",
+      "title": "eCPC Officially Dead - All Campaigns Auto-Transitioned",
+      "summary": "Enhanced CPC, the last semi-manual bidding strategy, was fully retired in March 2025. All remaining eCPC campaigns were automatically moved to other bid strategies. The era of partial manual control is over.",
+      "action": "Audit any campaigns that were auto-transitioned. Verify the new bid strategy (likely Maximize Conversions or Target CPA) is performing as expected. Adjust targets based on historical eCPC performance.",
+      "source": "https://www.wordstream.com/blog/2025-google-ads-updates",
+      "sourceName": "WordStream",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Bidding",
+        "Deprecation",
+        "Automation"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "gads-2026-03-22-004",
+      "platform": "google_ads",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "Ads Now Appear Inside AI Overviews (3 Positions)",
+      "summary": "Google is placing ads above, below, and within AI Overview summaries. AI Overviews now appear in roughly 50% of searches. Early data shows organic CTR dropped 61% and paid CTR dropped 68% on queries with AI Overviews.",
+      "action": "Use automated campaigns with broad match to be eligible for AI Overview ad placements. There is no dedicated bidding or targeting for these yet, so focus on strong creative and high ad relevance to win the limited slots.",
+      "source": "https://groas.ai/post/ads-in-ai-overviews-the-2026-advertisers-survival-guide",
+      "sourceName": "groas.ai",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "AI Overviews",
+        "Search",
+        "CTR"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "gads-2026-03-20-005",
+      "platform": "google_ads",
+      "category": "best_practice",
+      "impact": "medium",
+      "title": "RSA Sweet Spot: 2 Ads, 6-10 Headlines, 4 Descriptions",
+      "summary": "2026 consensus is that 2 RSAs per ad group with 6-10 headlines and 4 descriptions is the practical optimum - not the full 15/4. Individual asset reporting is now available, and unpinned ads consistently outperform pinned. Ad strength remains diagnostic only, not a KPI.",
+      "action": "Trim ad groups to 2 RSAs max. Cut underperforming headlines using the new asset-level reporting. Stop chasing 'Excellent' ad strength - focus on conversion metrics instead.",
+      "source": "https://growthmindedmarketing.com/blog/responsive-search-ads/",
+      "sourceName": "Growth Minded Marketing",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "RSA",
+        "Creative",
+        "Best Practice"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "gads-2026-03-18-006",
+      "platform": "google_ads",
+      "category": "algorithm_update",
+      "impact": "medium",
+      "title": "Broad Match + Smart Bidding Now Used by 62% of Advertisers",
+      "summary": "62% of Smart Bidding advertisers now use broad match as their primary match type. Google reports 18% more unique query categories and 19% more conversions with AI Max + Smart Bidding. Required for AI Overview ad eligibility.",
+      "action": "Test broad match on your highest-volume campaigns with Smart Bidding. Use the tiered approach: Broad (lab/testing) then Phrase (proven performers) then Exact (brand/high-value). Monitor search term reports weekly.",
+      "source": "https://www.searchscientists.com/broad-match-smart-bidding-2025/",
+      "sourceName": "Search Scientists",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Broad Match",
+        "Smart Bidding",
+        "Keywords"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "gads-2026-03-16-007",
+      "platform": "google_ads",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "PMax Gets Campaign-Level Negatives and Channel Reporting",
+      "summary": "Performance Max finally added campaign-level negative keywords and channel-level reporting (Search, Shopping, Display, YouTube, Discover). Brand exclusions for Search and Shopping are also now available. PMax lost Shopping priority to Standard Shopping in late 2024.",
+      "action": "Add negative keywords to all PMax campaigns immediately. Review channel-level reporting to find where budget is being wasted (often Display/Discover). Consider running Standard Shopping alongside PMax for better control.",
+      "source": "https://searchengineland.com/top-performance-max-optimization-tips-461913",
+      "sourceName": "Search Engine Land",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "PMax",
+        "Negatives",
+        "Reporting"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "gads-2026-03-14-008",
+      "platform": "google_ads",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "Demand Gen: 3x CTR vs Paid Social, GDN Auto-Enabled",
+      "summary": "Google Demand Gen campaigns report 3x higher CTR and 61% lower CPA vs paid social, with 68% of conversions from users who had not engaged with Search in 30 days. However, GDN was auto-enabled in April 2025 - you must manually opt out.",
+      "action": "Check all Demand Gen campaigns for GDN auto-enrollment and opt out if not wanted. For B2B, consider testing Demand Gen since buyers spend only 17% of their journey meeting suppliers - these upper-funnel placements can fill the gap.",
+      "source": "https://blog.google/products/ads-commerce/demand-gen-drop-february-2026/",
+      "sourceName": "Google Blog",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Demand Gen",
+        "Display",
+        "Upper Funnel"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "gads-2026-03-12-009",
+      "platform": "google_ads",
+      "category": "policy_change",
+      "impact": "medium",
+      "title": "Search Partners Cleanup: Parked Domains Removed",
+      "summary": "Google permanently removed parked domains from the Search Partner Network in February 2026. Placement reporting is now available in PMax, and account-level placement exclusions work across PMax, Demand Gen, YouTube, and Display.",
+      "action": "Review Search Partner performance with the new transparency. Default recommendation remains: opt out of SPN unless your data clearly shows it converts. Use account-level exclusions to block known low-quality placements.",
+      "source": "https://ppc.land/google-quietly-kills-parked-domain-ads-from-search-partner-network/",
+      "sourceName": "PPC Land",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Search Partners",
+        "Policy",
+        "Transparency"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "gads-2026-03-10-010",
+      "platform": "google_ads",
+      "category": "best_practice",
+      "impact": "high",
+      "title": "Conversion Tracking 2026: Google Native Tag as Primary",
+      "summary": "The 2026 standard is Google native tag as the primary conversion source, not GA4 imports. GA4 delays signals and attributes by occurrence date instead of click date. Enhanced Conversions recover 20-30% of lost data, and server-side tagging is no longer optional.",
+      "action": "Switch to Google native conversion tag if still using GA4 imports. Implement Enhanced Conversions to recover 20-30% of lost signal. Set up server-side tagging. For lead gen, offline conversion tracking is now mandatory for proper bidding.",
+      "source": "https://groas.ai/post/google-ads-conversion-tracking-setup-2026-the-complete-guide-ga4-enhanced-conversions-consent-mode",
+      "sourceName": "groas.ai",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Conversions",
+        "Tracking",
+        "GA4",
+        "Server-Side"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "gads-2026-03-08-011",
+      "platform": "google_ads",
+      "category": "algorithm_update",
+      "impact": "medium",
+      "title": "Quality Score 2026: AI Predicts UX Before Showing Your Ad",
+      "summary": "Google's 2025 AI now predicts user experience before displaying an ad, increasing weight on UX and page transparency. Landing page message match with ad copy has grown in importance. Ad Rank formula remains Max CPC x QS x Expected ad asset impact.",
+      "action": "Audit landing page message match for your top ad groups. Ensure the headline, offer, and CTA on the landing page mirror the ad copy. Improve page speed and mobile UX - these signals now carry more weight.",
+      "source": "https://www.optmyzr.com/blog/google-ads-quality-score/",
+      "sourceName": "Optmyzr",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Quality Score",
+        "Landing Pages",
+        "UX"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "gads-2026-03-06-012",
+      "platform": "google_ads",
+      "category": "new_feature",
+      "impact": "low",
+      "title": "Asset Studio with Imagen 4, Veo, and Brand Guidelines",
+      "summary": "Google launched Asset Studio with Imagen 4 image generation, Veo video generation, and Brand Guidelines for AI-generated content. Advertisers can now generate on-brand creative assets directly within the Google Ads platform.",
+      "action": "Try Asset Studio for quick creative variations, especially for PMax and Demand Gen asset groups. Upload your brand guidelines to keep AI outputs consistent. Do not rely solely on AI creative - test against human-produced assets.",
+      "source": "https://support.google.com/google-ads/answer/16756291",
+      "sourceName": "Google Support",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Creative",
+        "AI",
+        "Asset Studio"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "gads-2026-03-04-013",
+      "platform": "google_ads",
+      "category": "best_practice",
+      "impact": "medium",
+      "title": "Portfolio Bidding + Shared Budgets: +13% More Conversions",
+      "summary": "Combining portfolio bid strategies with shared budgets delivers 13% more conversions according to Google's data. This approach lets the AI optimize across campaigns rather than within siloed budgets.",
+      "action": "Group campaigns with similar goals into portfolio bid strategies with shared budgets. Start with campaigns targeting the same conversion action. Monitor for 2-3 weeks before judging performance.",
+      "source": "https://support.google.com/google-ads/answer/10487241?hl=en",
+      "sourceName": "Google Support",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Bidding",
+        "Budgets",
+        "Optimization"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "meta-2026-03-27-001",
+      "platform": "meta_ads",
+      "category": "algorithm_update",
+      "impact": "high",
+      "title": "Andromeda Algorithm: 10,000x More Complex, Creative IS Targeting",
+      "summary": "Meta's new Andromeda ad retrieval engine is 10,000x more complex and 100x faster at feature extraction. The biggest shift: 70-80% of ad performance now comes from creative quality, not budget or audience setup. Targeting is secondary - Andromeda chooses audiences based on your creative.",
+      "action": "Shift 80% of your effort to creative operations. Stop splitting audiences manually - consolidate campaigns and let Andromeda find buyers. Test 8-12 distinct creative concepts with 2-3 variations each.",
+      "source": "https://www.jonloomer.com/meta-andromeda/",
+      "sourceName": "Jon Loomer",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Andromeda",
+        "Algorithm",
+        "Creative",
+        "Targeting"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "meta-2026-03-26-002",
+      "platform": "meta_ads",
+      "category": "policy_change",
+      "impact": "high",
+      "title": "6-Ad Limit Per Ad Set Removed - Top Performers Run 15-50 Ads",
+      "summary": "Meta removed the long-standing 6-ad limit per ad set. Top-performing advertisers now run 15-50 ads per ad set, feeding Andromeda more creative options to test. This aligns with Meta's push toward creative volume and diversity.",
+      "action": "Increase ad count per ad set gradually. Start with 10-15 ads featuring diverse hooks, formats, and angles. Andromeda rewards true creative variation - copies of the same concept will not help.",
+      "source": "https://www.dataslayer.ai/blog/meta-ads-changes-2025-83-updates-that-changed-facebook-advertising-forever",
+      "sourceName": "Dataslayer",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Creative Volume",
+        "Ad Sets",
+        "Andromeda"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "meta-2026-03-24-003",
+      "platform": "meta_ads",
+      "category": "algorithm_update",
+      "impact": "high",
+      "title": "Learning Phase Reduced: 10 Conversions in 3 Days (Was 50 in 7)",
+      "summary": "Meta dramatically reduced the learning phase threshold from 50 conversions in 7 days down to 10 conversions in 3 days. This makes optimization accessible to smaller budgets and lower-volume accounts that previously struggled to exit learning.",
+      "action": "Reconsider campaigns you paused for being 'stuck in learning.' With the lower threshold, accounts spending $50-100/day can now exit learning phase reliably. Avoid making changes during the 3-day window.",
+      "source": "https://giovanniperilli.com/en/blog/meta-ads-updates-what-really-changed-in-2025-and-how-to-prepare-for-2026/",
+      "sourceName": "Giovanni Perilli",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Learning Phase",
+        "Optimization",
+        "Small Budgets"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "meta-2026-03-22-004",
+      "platform": "meta_ads",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "Advantage+ Sales: 4.52x ROAS vs 3.70x Manual (22% Lift)",
+      "summary": "Advantage+ Sales campaigns now deliver 4.52x ROAS versus 3.70x for manual campaigns - a 22% improvement. The campaign type now supports ecommerce, lead gen, and app installs. Existing Customer Budget Cap was replaced with a percentage cap in March 2026.",
+      "action": "Test Advantage+ Sales with at least $100/day budget. Set the existing customer cap to 20-30% to avoid over-indexing on retargeting. Compare ROAS against your manual campaigns for 2 weeks before scaling.",
+      "source": "https://coinis.com/blog/meta-advantage-plus-ai-ads-updates-2025",
+      "sourceName": "Coinis",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Advantage+",
+        "ROAS",
+        "Ecommerce",
+        "Lead Gen"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "meta-2026-03-20-005",
+      "platform": "meta_ads",
+      "category": "deprecation",
+      "impact": "high",
+      "title": "Native Checkout Killed - All Purchases Redirect to Website",
+      "summary": "Meta removed native checkout from Facebook and Instagram between June and September 2025. All purchases now redirect to the advertiser's website. This makes CAPI implementation and on-site CRO more critical than ever.",
+      "action": "Ensure CAPI (Conversions API) is properly implemented with dual-tracking (Pixel + CAPI). Optimize your website checkout flow since all Meta traffic now lands there. Consider third-party attribution tools like Hyros or Triple Whale.",
+      "source": "https://www.godatafeed.com/blog/meta-is-dropping-native-checkout-on-facebook-and-instagram",
+      "sourceName": "GoDataFeed",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Checkout",
+        "CAPI",
+        "Attribution",
+        "Ecommerce"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "meta-2026-03-18-006",
+      "platform": "meta_ads",
+      "category": "benchmark",
+      "impact": "medium",
+      "title": "Creative Fatigue Now Hits at 9.2 Days (Was 14 in 2024)",
+      "summary": "Creative fatigue onset has accelerated from 14 days in 2024 to just 9.2 days in 2026. UGC content lasts 14-18 days, and hook performance drops 37% after 7 days. Early fatigue signals: CTR declining 10%+, CPA rising 15%+, frequency above 3.",
+      "action": "Plan creative refreshes every 7-10 days. Build a pipeline of 8-12 core concepts that can be quickly iterated. Monitor CPMr (cost per mille reached) as the earliest fatigue signal - act when it exceeds $20.",
+      "source": "https://benly.ai/learn/meta-ads/creative-fatigue-solutions",
+      "sourceName": "Benly.ai",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Creative Fatigue",
+        "UGC",
+        "Testing"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "meta-2026-03-16-007",
+      "platform": "meta_ads",
+      "category": "policy_change",
+      "impact": "medium",
+      "title": "Attribution Windows Cut: 7-Day and 28-Day View Removed",
+      "summary": "Meta removed both 7-day and 28-day view-through attribution windows, and dropped engaged-view attribution from 10 seconds to 5 seconds. Cookie tracking is now only about 40% accurate. CAPI recovers 20-30% of lost data.",
+      "action": "Switch to 7-day click attribution as your primary reporting window. Implement CAPI with dual-tracking if you have not already. Use third-party tools (wetracked.io, Hyros, Triple Whale) for a more complete attribution picture.",
+      "source": "https://www.wetracked.io/post/what-is-capi-meta-facebook-conversion-api",
+      "sourceName": "wetracked.io",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Attribution",
+        "CAPI",
+        "Tracking",
+        "Privacy"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "meta-2026-03-14-008",
+      "platform": "meta_ads",
+      "category": "best_practice",
+      "impact": "medium",
+      "title": "UGC-Style Ads: 4x Engagement, +35% CTR Over Polished Creative",
+      "summary": "UGC-style ads deliver 4x higher engagement than polished brand creative. Testimonial UGC drives +35% CTR, before/after content lifts conversion rate by 40%, and comparison ads add +31% CTR. Static images are making a comeback as 90% of inventory is vertical (9:16).",
+      "action": "Add UGC-style creatives to every campaign. Use the 3-layer testing framework: hook testing (48-72hrs), message validation (5-7 days), then scale optimization. Mix video and static formats - do not ignore static in a video-first world.",
+      "source": "https://www.flighted.co/blog/7-meta-ads-creative-strategies-that-work",
+      "sourceName": "Flighted",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "UGC",
+        "Creative",
+        "CTR",
+        "Testing"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "meta-2026-03-12-009",
+      "platform": "meta_ads",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "Advantage+ Leads Launched: 10% Lower CPL with Opportunity Scoring",
+      "summary": "Meta launched Advantage+ Leads with built-in opportunity scoring (0-100) to prioritize high-quality leads. Early reports show 10% lower CPL compared to manual lead gen campaigns. This is Meta's play to compete with Google for lead gen budgets.",
+      "action": "Test Advantage+ Leads alongside your existing lead gen campaigns. Use the opportunity scoring to feed quality signals back into the algorithm. Ensure your CRM is connected to pass back lead quality data.",
+      "source": "https://www.jonloomer.com/meta-advertising-changes-2025/",
+      "sourceName": "Jon Loomer",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Advantage+",
+        "Lead Gen",
+        "CPL"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "meta-2026-03-10-010",
+      "platform": "meta_ads",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "Meta AI Tools: AI Backgrounds, Video Gen, Dubbing at Scale",
+      "summary": "Meta's AI creative tools are delivering real results. FULLBEAUTY saw 45% ROAS lift, 22% higher CVR, and 36% CTR improvement using AI backgrounds. AI video generation (UGC-style avatars), AI dubbing for multilingual ads, and Advantage+ Creative (one photo into many versions) are all live.",
+      "action": "Test AI backgrounds on your product images - it is free and low-effort. For video, try AI avatars as a supplement to real UGC, not a replacement. Use AI dubbing to test international markets without full localization costs.",
+      "source": "https://www.foxwelldigital.com/blog/ai-and-creative-for-meta-ads-in-2025-a-definitive-guide",
+      "sourceName": "Foxwell Digital",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "AI Creative",
+        "Video Gen",
+        "Automation"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "meta-2026-03-08-011",
+      "platform": "meta_ads",
+      "category": "policy_change",
+      "impact": "medium",
+      "title": "Detailed Targeting Exclusions Removed",
+      "summary": "Meta removed the ability to exclude specific interest-based audiences from targeting. This is part of the broader shift toward Andromeda-driven audience selection, where the algorithm decides who sees your ads based on creative signals rather than manual targeting constraints.",
+      "action": "Stop relying on audience exclusions for targeting precision. Instead, use creative as your targeting lever - specific messaging naturally filters the audience. For existing customer exclusions, use the Advantage+ existing customer budget cap.",
+      "source": "https://www.jonloomer.com/meta-ads-targeting-2026/",
+      "sourceName": "Jon Loomer",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Targeting",
+        "Audiences",
+        "Andromeda"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "tiktok-2026-03-29-001",
+      "platform": "tiktok",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "TikTok Search Ads Campaigns Launch Globally",
+      "summary": "TikTok Search Ads is now available as a standalone campaign type globally, letting advertisers bid on keyword-based search intent within TikTok. With 57% of TikTok users using the search function, this opens a new intent-driven channel beyond the For You feed.",
+      "action": "Set up Search Ads campaigns targeting high-intent keywords in your category. Start with brand terms and top product queries. Use search-specific creative that answers questions directly rather than scroll-stopping entertainment content.",
+      "source": "https://ads.tiktok.com/business/en-US/blog/search-ads-campaign",
+      "sourceName": "TikTok Business",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Search Ads",
+        "Keywords",
+        "Intent"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "tiktok-2026-03-23-002",
+      "platform": "tiktok",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "TikTok Smart+ Campaigns: Fully Automated Ad Buying",
+      "summary": "TikTok's Smart+ is their version of Meta's Advantage+ - a fully automated campaign type handling targeting, bidding, and creative optimization. Early adopters report 52% lower CPA on web campaigns and 12% improvement in cost per purchase for shopping campaigns.",
+      "action": "Test Smart+ with a separate budget alongside manual campaigns. Feed it diverse creative (5-10 variations minimum). Monitor for 7 days before judging - the algorithm needs time to learn, similar to Meta's learning phase.",
+      "source": "https://ads.tiktok.com/business/en-US/blog/smart-plus-performance-automation",
+      "sourceName": "TikTok Business",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Smart+",
+        "Automation",
+        "CPA"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "tiktok-2026-03-17-003",
+      "platform": "tiktok",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "TikTok Shop Ads Expand to 15+ Markets",
+      "summary": "TikTok Shop Ads now operate in 15+ markets including US, UK, and Southeast Asia. The in-app shopping experience lets users purchase without leaving TikTok. GMV for TikTok Shop tripled year-over-year, making it a serious ecommerce channel.",
+      "action": "If selling physical products, set up TikTok Shop and connect your product catalog. Create shoppable video content featuring product demos. Leverage affiliate creators who already produce content in your niche.",
+      "source": "https://ads.tiktok.com/business/en-US/blog/tiktok-shop-ads",
+      "sourceName": "TikTok Business",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "TikTok Shop",
+        "Ecommerce",
+        "Shopping"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "tiktok-2026-03-11-004",
+      "platform": "tiktok",
+      "category": "algorithm_update",
+      "impact": "medium",
+      "title": "TikTok Symphony: AI-Generated Avatars and Scripts for Ads",
+      "summary": "TikTok Symphony now offers AI-generated digital avatars that can deliver scripted ad content in multiple languages. The tool generates scripts based on product descriptions and trending hooks. Custom avatars trained on your brand spokesperson are also available.",
+      "action": "Test Symphony avatars for quick creative production, especially for international markets. Use AI-generated scripts as a starting point but customize with your brand voice. Compare performance against real UGC creators.",
+      "source": "https://ads.tiktok.com/business/en-US/blog/symphony-creative-ai",
+      "sourceName": "TikTok Business",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Symphony",
+        "AI Creative",
+        "Avatars"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "industry-2026-03-30-001",
+      "platform": "industry",
+      "category": "benchmark",
+      "impact": "high",
+      "title": "Cookie Tracking Now Only 40% Accurate Across All Platforms",
+      "summary": "Cross-platform cookie tracking accuracy has dropped to approximately 40% due to browser restrictions, iOS privacy changes, and consent mode requirements. This affects all ad platforms equally. Server-side solutions and first-party data strategies are now baseline requirements, not optional upgrades.",
+      "action": "Implement server-side tracking for all major platforms. Build first-party data collection (email, phone, CRM data) as your core measurement foundation. Use platform-native conversion APIs (CAPI for Meta, Enhanced Conversions for Google).",
+      "source": "https://ppcnewsfeed.com/blog/google-consent-mode-explained/",
+      "sourceName": "PPC News Feed",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Privacy",
+        "Tracking",
+        "Cookies",
+        "Server-Side"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "industry-2026-03-21-002",
+      "platform": "industry",
+      "category": "benchmark",
+      "impact": "medium",
+      "title": "AI Overviews Cut Organic CTR by 61% - Zero-Click Rising",
+      "summary": "Google AI Overviews now appear in about 50% of searches, and queries with AI Overviews show 61% lower organic CTR and 68% lower paid CTR. The zero-click search trend is accelerating as users get answers directly from AI summaries without clicking through.",
+      "action": "Diversify traffic sources beyond organic search. Invest in brand building, email lists, and direct traffic. For SEO, optimize content to be cited BY AI Overviews rather than competing with them. Structure content with clear, quotable answers.",
+      "source": "https://searchengineland.com/google-expand-ads-ai-overviews-463273",
+      "sourceName": "Search Engine Land",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "AI Overviews",
+        "SEO",
+        "Zero-Click",
+        "CTR"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "industry-2026-03-15-003",
+      "platform": "industry",
+      "category": "best_practice",
+      "impact": "medium",
+      "title": "Media Buyer Role Shift: 80% Creative Ops, 20% Media Buying",
+      "summary": "With Andromeda, Smart Bidding, and Advantage+ handling targeting and bidding, the media buyer role has fundamentally shifted. Success now depends 80% on creative operations (volume, diversity, testing cadence) and only 20% on traditional media buying (budgets, bids, audiences).",
+      "action": "Restructure your team and workflow around creative production. Build a system for producing 40-50 ad variations per month at minimum. Invest in creative strategists and UGC networks rather than more media buyers.",
+      "source": "https://verdemedia.com/blog/the-guide-to-meta-ads-creative-2026",
+      "sourceName": "Verde Media",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Creative Operations",
+        "Team Structure",
+        "Industry Shift"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "industry-2026-03-09-004",
+      "platform": "industry",
+      "category": "best_practice",
+      "impact": "medium",
+      "title": "Independent Measurement Is Now Critical - Platforms Self-Report",
+      "summary": "Google's ad revenue exceeded $300B in 2024, and both Google and Meta are increasingly opaque about where ads appear and how conversions are counted. Platform-reported ROAS and conversion numbers consistently overstate performance. Independent measurement is now a necessity.",
+      "action": "Implement at least one independent attribution tool (Hyros, Triple Whale, Northbeam). Cross-reference platform-reported conversions with CRM data monthly. Never make budget decisions based solely on platform-reported ROAS.",
+      "source": "https://groas.ai/post/the-state-of-google-ads-ai-in-2026-whats-working-whats-broken-and-whats-next",
+      "sourceName": "groas.ai",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "Attribution",
+        "Measurement",
+        "ROAS",
+        "Transparency"
+      ],
+      "baseline": true
+    },
+    {
+      "id": "industry-2026-03-05-005",
+      "platform": "industry",
+      "category": "benchmark",
+      "impact": "low",
+      "title": "B2B Buyers Spend Only 17% of Journey Meeting Suppliers",
+      "summary": "Gartner's updated B2B buying research confirms buyers spend just 17% of their purchase journey in direct contact with suppliers. The remaining 83% is spent on independent research, peer reviews, and internal evaluation. This makes upper-funnel advertising and content marketing critical for B2B.",
+      "action": "Invest in Demand Gen, LinkedIn, and content marketing for B2B. Create comparison content, case studies, and ROI calculators that serve the self-research phase. Ensure your brand appears in review sites and industry discussions.",
+      "source": "https://www.coseom.com/google-demand-gen-campaigns/",
+      "sourceName": "COSEOM",
+      "dateAdded": "2026-03-31",
+      "tags": [
+        "B2B",
+        "Buyer Journey",
+        "Content Marketing"
+      ],
+      "baseline": true
+    }
+  ]
+}
