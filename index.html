@@ -202,11 +202,33 @@ body.dark-mode .site-footer a{color:#AAA}
   padding:12px 20px;
   text-align:center;
   min-width:90px;
+  transition:background 0.2s ease, transform 0.2s ease;
+}
+.stat-pill.primary{
+  background:rgba(255,255,255,0.16);
+  padding:14px 26px;
+  min-width:120px;
+}
+.stat-pill.primary .stat-num{
+  font-size:38px;
+}
+.stat-pill.primary .stat-label{
+  font-size:11px;
+  color:rgba(255,255,255,0.75);
 }
 .stat-pill .stat-num{
   font-size:26px;
   font-weight:700;
   line-height:1.1;
+}
+.stat-pill .stat-num-suffix{
+  font-size:14px;
+  font-weight:500;
+  color:rgba(255,255,255,0.5);
+  margin-left:4px;
+}
+.stat-pill.filtered{
+  background:rgba(255,255,255,0.18);
 }
 .stat-pill .stat-label{
   font-size:10px;
@@ -547,6 +569,9 @@ body.dark-mode .site-footer a{color:#AAA}
   .header-title{font-size:24px}
   .stat-pill{min-width:70px;padding:8px 12px}
   .stat-pill .stat-num{font-size:20px}
+  .stat-pill.primary{min-width:96px;padding:10px 16px}
+  .stat-pill.primary .stat-num{font-size:30px}
+  .stat-pill .stat-num-suffix{font-size:12px}
   .platform-tabs{overflow-x:auto;flex-wrap:nowrap;padding-bottom:4px}
   .platform-tab{white-space:nowrap;flex-shrink:0}
   .filter-inner{gap:8px}
@@ -556,6 +581,9 @@ body.dark-mode .site-footer a{color:#AAA}
   .stats-row{gap:6px}
   .stat-pill{min-width:60px;padding:6px 8px}
   .stat-pill .stat-num{font-size:18px}
+  .stat-pill.primary{min-width:80px;padding:8px 12px}
+  .stat-pill.primary .stat-num{font-size:24px}
+  .stat-pill .stat-num-suffix{font-size:11px}
   .card-title{font-size:15px}
 }
 </style>
@@ -1628,39 +1656,44 @@ var INLINE_DATA = {
     return Math.floor((now - d) / 86400000);
   }
 
-  function renderStats() {
-    var updates = data.updates;
-    var total = updates.length;
-    var thisWeek = 0;
-    var google = 0;
-    var meta = 0;
-    var tiktok = 0;
-    var linkedin = 0;
-    var industry = 0;
+  function computeStats(set) {
+    var stats = {total: set.length, thisWeek: 0, google_ads: 0, meta_ads: 0, tiktok: 0, linkedin: 0, industry: 0};
+    for (var i = 0; i < set.length; i++) {
+      var u = set[i];
+      if (daysSince(u.dateAdded) <= 7) stats.thisWeek++;
+      if (stats[u.platform] !== undefined) stats[u.platform]++;
+    }
+    return stats;
+  }
 
-    for (var i = 0; i < updates.length; i++) {
-      var u = updates[i];
-      if (daysSince(u.dateAdded) <= 7) thisWeek++;
-      if (u.platform === 'google_ads') google++;
-      else if (u.platform === 'meta_ads') meta++;
-      else if (u.platform === 'tiktok') tiktok++;
-      else if (u.platform === 'linkedin') linkedin++;
-      else if (u.platform === 'industry') industry++;
+  function renderStats(filteredSet) {
+    var filtered = computeStats(filteredSet);
+    var totals = computeStats(data.updates);
+    var hasFilters = filteredSet.length !== data.updates.length;
+
+    function pillNum(filteredCount, totalCount) {
+      if (hasFilters && filteredCount !== totalCount) {
+        return filteredCount + '<span class="stat-num-suffix">of ' + totalCount + '</span>';
+      }
+      return String(totalCount);
     }
 
     var pills = [
-      {num: total, label: 'Total', cls: 'accent'},
-      {num: thisWeek, label: 'This Week', cls: 'accent'},
-      {num: google, label: 'Google', cls: 'google'},
-      {num: meta, label: 'Meta', cls: 'meta'},
-      {num: tiktok, label: 'TikTok', cls: 'tiktok'},
-      {num: linkedin, label: 'LinkedIn', cls: 'linkedin'},
-      {num: industry, label: 'Industry', cls: 'industry'}
+      {primary: true, num: pillNum(filtered.total, totals.total), label: 'Total', cls: 'accent', filtered: hasFilters},
+      {primary: true, num: pillNum(filtered.thisWeek, totals.thisWeek), label: 'This Week', cls: 'accent', filtered: hasFilters && filtered.thisWeek !== totals.thisWeek},
+      {num: pillNum(filtered.google_ads, totals.google_ads), label: 'Google', cls: 'google', filtered: hasFilters && filtered.google_ads !== totals.google_ads},
+      {num: pillNum(filtered.meta_ads, totals.meta_ads), label: 'Meta', cls: 'meta', filtered: hasFilters && filtered.meta_ads !== totals.meta_ads},
+      {num: pillNum(filtered.tiktok, totals.tiktok), label: 'TikTok', cls: 'tiktok', filtered: hasFilters && filtered.tiktok !== totals.tiktok},
+      {num: pillNum(filtered.linkedin, totals.linkedin), label: 'LinkedIn', cls: 'linkedin', filtered: hasFilters && filtered.linkedin !== totals.linkedin},
+      {num: pillNum(filtered.industry, totals.industry), label: 'Industry', cls: 'industry', filtered: hasFilters && filtered.industry !== totals.industry}
     ];
 
     var html = '';
     for (var j = 0; j < pills.length; j++) {
-      html += '<div class="stat-pill"><div class="stat-num ' + pills[j].cls + '">' + pills[j].num + '</div><div class="stat-label">' + pills[j].label + '</div></div>';
+      var classes = 'stat-pill';
+      if (pills[j].primary) classes += ' primary';
+      if (pills[j].filtered) classes += ' filtered';
+      html += '<div class="' + classes + '"><div class="stat-num ' + pills[j].cls + '">' + pills[j].num + '</div><div class="stat-label">' + pills[j].label + '</div></div>';
     }
     document.getElementById('statsRow').innerHTML = html;
   }
@@ -1745,6 +1778,7 @@ var INLINE_DATA = {
     grid.innerHTML = '';
     var filtered = getFilteredUpdates();
 
+    renderStats(filtered);
     document.getElementById('filterCount').textContent = filtered.length + ' update' + (filtered.length !== 1 ? 's' : '');
 
     if (filtered.length === 0) {
@@ -1795,7 +1829,6 @@ var INLINE_DATA = {
   function init(d) {
     data = d;
     renderLastUpdated();
-    renderStats();
     setupFilters();
     renderCards();
   }
