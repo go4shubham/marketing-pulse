@@ -638,6 +638,84 @@
       "dateAdded": "2026-04-07",
       "verifiedAt": "2026-05-01T15:59:03.062Z",
       "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "gads-apr-024": {
+      "source": "https://groas.ai/post/google-ads-updates-april-2026----everything-that-changed-this-month",
+      "dateAdded": "2026-04-15",
+      "verifiedAt": "2026-05-01T16:06:43.199Z",
+      "note": "verified via WebFetch on May 1 2026 - deep-april run"
+    },
+    "gads-apr-025": {
+      "source": "https://groas.ai/post/google-ads-updates-april-2026----everything-that-changed-this-month",
+      "dateAdded": "2026-04-15",
+      "verifiedAt": "2026-05-01T16:06:43.199Z",
+      "note": "verified via WebFetch on May 1 2026 - deep-april run"
+    },
+    "gads-apr-026": {
+      "source": "https://groas.ai/post/google-ads-updates-april-2026----everything-that-changed-this-month",
+      "dateAdded": "2026-04-15",
+      "verifiedAt": "2026-05-01T16:06:43.199Z",
+      "note": "verified via WebFetch on May 1 2026 - deep-april run"
+    },
+    "gads-apr-027": {
+      "source": "https://almcorp.com/blog/google-demand-gen-april-2026-update/",
+      "dateAdded": "2026-04-23",
+      "verifiedAt": "2026-05-01T16:06:43.199Z",
+      "note": "verified via WebFetch on May 1 2026 - deep-april run"
+    },
+    "gads-apr-028": {
+      "source": "https://groas.ai/post/google-ads-updates-april-2026----everything-that-changed-this-month",
+      "dateAdded": "2026-04-15",
+      "verifiedAt": "2026-05-01T16:06:43.199Z",
+      "note": "verified via WebFetch on May 1 2026 - deep-april run"
+    },
+    "meta-apr-005": {
+      "source": "https://www.socialmediatoday.com/news/meta-simplifies-ad-performance-elements/817629/",
+      "dateAdded": "2026-04-15",
+      "verifiedAt": "2026-05-01T16:06:43.199Z",
+      "note": "verified via WebFetch on May 1 2026 - deep-april run"
+    },
+    "meta-apr-009": {
+      "source": "https://ppc.land/metas-free-one-click-conversions-api-is-now-live-no-developer-needed/",
+      "dateAdded": "2026-04-27",
+      "verifiedAt": "2026-05-01T16:06:43.199Z",
+      "note": "verified via WebFetch on May 1 2026 - deep-april run"
+    },
+    "meta-apr-010": {
+      "source": "https://socialbee.com/blog/facebook-updates/",
+      "dateAdded": "2026-04-22",
+      "verifiedAt": "2026-05-01T16:06:43.199Z",
+      "note": "verified via WebFetch on May 1 2026 - deep-april run"
+    },
+    "meta-apr-011": {
+      "source": "https://socialbee.com/blog/facebook-updates/",
+      "dateAdded": "2026-04-22",
+      "verifiedAt": "2026-05-01T16:06:43.199Z",
+      "note": "verified via WebFetch on May 1 2026 - deep-april run"
+    },
+    "microsoft-apr-003": {
+      "source": "https://news.microsoft.com/source/2026/04/08/microsoft-and-publicis-groupe-expand-their-strategic-partnership-to-power-the-future-of-agentic-marketing-for-businesses-worldwide/",
+      "dateAdded": "2026-04-08",
+      "verifiedAt": "2026-05-01T16:06:43.199Z",
+      "note": "verified via WebFetch on May 1 2026 - deep-april run"
+    },
+    "reddit-apr-003": {
+      "source": "https://ppc.land/reddit-reminder-ads-go-global-3-1x-ctr-lift-shocks-advertisers/",
+      "dateAdded": "2026-04-13",
+      "verifiedAt": "2026-05-01T16:06:43.199Z",
+      "note": "verified via WebFetch on May 1 2026 - deep-april run"
+    },
+    "industry-apr-031": {
+      "source": "https://www.magnite.com/press/magnite-unveils-new-ai-capabilities/",
+      "dateAdded": "2026-04-27",
+      "verifiedAt": "2026-05-01T16:06:43.199Z",
+      "note": "verified via WebFetch on May 1 2026 - deep-april run"
+    },
+    "industry-apr-032": {
+      "source": "https://ppc.land/ias-total-tv-brings-show-level-transparency-to-ctv-ad-buying/",
+      "dateAdded": "2026-04-27",
+      "verifiedAt": "2026-05-01T16:06:43.199Z",
+      "note": "verified via WebFetch on May 1 2026 - deep-april run"
     }
   }
 }
