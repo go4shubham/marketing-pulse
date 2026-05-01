@@ -536,6 +536,24 @@
       "dateAdded": "2026-04-22",
       "verifiedAt": "2026-05-01T12:32:47.750Z",
       "note": "verified via WebFetch on Apr 30 2026"
+    },
+    "industry-apr-022": {
+      "source": "https://searchengineland.com/microsoft-launches-ai-max-and-new-ad-tools-for-the-agentic-web-era-474939",
+      "dateAdded": "2026-04-21",
+      "verifiedAt": "2026-05-01T15:49:16.699Z",
+      "note": "verified via WebFetch on May 1 2026 - source-expansion run"
+    },
+    "industry-apr-023": {
+      "source": "https://developers.hubspot.com/changelog/april-2026-rollup",
+      "dateAdded": "2026-04-30",
+      "verifiedAt": "2026-05-01T15:49:16.699Z",
+      "note": "verified via WebFetch on May 1 2026 - source-expansion run"
+    },
+    "industry-apr-024": {
+      "source": "https://www.adexchanger.com/platforms/reddit-reports-a-75-boost-in-q1-ad-revenue-as-it-reaches-for-100-million-daily-us-users/",
+      "dateAdded": "2026-04-30",
+      "verifiedAt": "2026-05-01T15:49:16.699Z",
+      "note": "verified via WebFetch on May 1 2026 - source-expansion run"
     }
   }
 }
