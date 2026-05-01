@@ -1,0 +1,541 @@
+{
+  "verified": {
+    "gads-mar-005": {
+      "source": "https://blog.google/products/ads-commerce/ads-advisor-and-analytics-advisor/",
+      "dateAdded": "2025-11-12",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "linkedin-jan-001": {
+      "source": "https://searchengineland.com/linkedin-rolls-out-tools-to-make-b2b-brand-advertising-more-predictable-466019",
+      "dateAdded": "2025-12-10",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "meta-jan-001": {
+      "source": "https://gizmodo.com/metas-new-privacy-policy-opens-up-ai-chats-for-targeted-ads-2000704852",
+      "dateAdded": "2026-01-02",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "tiktok-jan-001": {
+      "source": "https://digiday.com/marketing/after-watching-xs-ownership-issues-play-out-marketers-brace-for-tiktok-whiplash-in-2026/",
+      "dateAdded": "2026-01-02",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "meta-jan-002": {
+      "source": "https://www.socialnative.com/articles/meta-partnership-ads-updates-how-brands-can-capitalize-in-2026/",
+      "dateAdded": "2026-01-07",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "meta-jan-003": {
+      "source": "https://socialbee.com/blog/facebook-updates/",
+      "dateAdded": "2026-01-21",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "gads-jan-001": {
+      "source": "https://support.google.com/adspolicy/answer/16749907?hl=en",
+      "dateAdded": "2026-01-21",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "gads-jan-002": {
+      "source": "https://www.symphonicdigital.com/blog/google-ads-playbook-for-2026",
+      "dateAdded": "2026-01-22",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "gads-jan-003": {
+      "source": "https://groas.ai/post/google-ads-updates-february-2026-everything-that-changed-this-month",
+      "dateAdded": "2026-01-28",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "gads-jan-004": {
+      "source": "https://almcorp.com/blog/google-ads-updates-2026/",
+      "dateAdded": "2026-01-28",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "meta-jan-004": {
+      "source": "https://about.fb.com/news/2026/01/2026-ai-drives-performance/",
+      "dateAdded": "2026-01-29",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "tiktok-feb-001": {
+      "source": "https://www.jckonline.com/editorial-article/social-media-updates-feb-26",
+      "dateAdded": "2026-02-09",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "gads-feb-001": {
+      "source": "https://groas.ai/post/google-ads-updates-february-2026-everything-that-changed-this-month",
+      "dateAdded": "2026-02-09",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "gads-feb-002": {
+      "source": "https://ppc.land/google-quietly-kills-parked-domain-ads-from-search-partner-network/",
+      "dateAdded": "2026-02-17",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "meta-feb-001": {
+      "source": "https://www.usewonderful.com/blog/meta-ads-updates-february-2026",
+      "dateAdded": "2026-02-28",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "meta-feb-002": {
+      "source": "https://www.usewonderful.com/blog/meta-ads-updates-february-2026",
+      "dateAdded": "2026-02-28",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "industry-mar-001": {
+      "source": "https://seafoammedia.com/march-2026-marketing-news-trends-insights/",
+      "dateAdded": "2026-03-02",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "meta-mar-001": {
+      "source": "https://www.digitalapplied.com/blog/meta-ads-performance-dropped-march-2026-ai-algorithm-changes",
+      "dateAdded": "2026-03-08",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "gads-mar-001": {
+      "source": "https://searchengineland.com/google-ads-adds-ai-voice-over-to-performance-max-video-ads-471156",
+      "dateAdded": "2026-03-09",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "meta-mar-002": {
+      "source": "https://www.socialmediatoday.com/news/meta-hikes-ad-prices-in-six-countries/814391/",
+      "dateAdded": "2026-03-10",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "linkedin-mar-002": {
+      "source": "https://searchengineland.com/b2b-linkedin-ads-tests-run-471267",
+      "dateAdded": "2026-03-11",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "tiktok-mar-001": {
+      "source": "https://www.digitalapplied.com/blog/tiktok-new-ownership-advertising-rebuilding-2026-rules",
+      "dateAdded": "2026-03-13",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "meta-mar-003": {
+      "source": "https://www.auditsocials.com/blog/meta-ad-policy-updates-2026-guide",
+      "dateAdded": "2026-03-14",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "gads-mar-002": {
+      "source": "https://searchengineland.com/ai-mode-google-next-ads-engine-471967",
+      "dateAdded": "2026-03-19",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "meta-mar-004": {
+      "source": "https://optifox.in/blog/meta-ads-best-practices-2026/",
+      "dateAdded": "2026-03-20",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "tiktok-mar-002": {
+      "source": "https://techcrunch.com/2026/03/24/tiktok-ads-are-about-to-get-a-tad-more-disruptive/",
+      "dateAdded": "2026-03-24",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "tiktok-mar-003": {
+      "source": "https://basis.com/blog/tiktok-advertising-in-2026-what-questions-remain-post-sale",
+      "dateAdded": "2026-03-25",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "linkedin-mar-001": {
+      "source": "https://www.marketingbrew.com/stories/2026/03/25/linkedin-newfront-pitch-ad-updates",
+      "dateAdded": "2026-03-25",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "gads-mar-003": {
+      "source": "https://blog.google/products/ads-commerce/demand-gen-drop-march-2026/",
+      "dateAdded": "2026-03-26",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "meta-mar-005": {
+      "source": "https://www.socialmediatoday.com/news/meta-introduces-new-ad-and-discovery-options-at-iab-newfronts/815921/",
+      "dateAdded": "2026-03-26",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "gads-mar-004": {
+      "source": "https://searchengineland.com/google-march-2026-core-update-rolling-out-now-472759",
+      "dateAdded": "2026-03-27",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "industry-mar-002": {
+      "source": "https://bostoninstituteofanalytics.org/blog/marketing-trends-news-march-22-28-2026-ai-disruption-meets-brand-reinvention/",
+      "dateAdded": "2026-03-28",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "tiktok-mar-004": {
+      "source": "https://www.darkroomagency.com/observatory/what-brands-need-to-know-about-tiktok-new-rules-2026",
+      "dateAdded": "2026-03-31",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "gads-apr-002": {
+      "source": "https://searchengineland.com/google-ads-api-enforces-daily-minimum-budget-for-demand-gen-campaigns-470684",
+      "dateAdded": "2026-03-03",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "industry-apr-003": {
+      "source": "https://searchengineland.com/data-shows-chatgpt-ads-favor-clarity-over-creativity-473374",
+      "dateAdded": "2026-04-02",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "meta-apr-001": {
+      "source": "https://www.jonloomer.com/describe-your-audience-detailed-targeting/",
+      "dateAdded": "2026-03-31",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "linkedin-apr-001": {
+      "source": "https://blog.linkboost.co/linkedin-marketing-strategy-2026/",
+      "dateAdded": "2026-04-04",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "industry-apr-001": {
+      "source": "https://qortechno.com/5-key-digital-marketing-trends-from-april-2026-every-business-must-prepare/",
+      "dateAdded": "2026-03-31",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "industry-apr-002": {
+      "source": "https://bostoninstituteofanalytics.org/blog/big-moves-in-marketing-weekly-brand-roundup-march-29-april-4-2026/",
+      "dateAdded": "2026-04-04",
+      "verifiedAt": "2026-04-06T00:00:00.000Z",
+      "note": "seeded from existing data"
+    },
+    "gads-apr-001": {
+      "source": "https://searchengineland.com/google-ads-experiments-now-auto-apply-results-by-default-473266",
+      "dateAdded": "2026-04-01",
+      "verifiedAt": "2026-04-06T13:07:12.308Z"
+    },
+    "gads-apr-003": {
+      "source": "https://searchengineland.com/google-adds-channel-performance-timeline-view-to-pmax-campaigns-473355",
+      "dateAdded": "2026-04-02",
+      "verifiedAt": "2026-04-10T16:17:07.954Z",
+      "note": "WebFetch verified Apr 10 2026 batch"
+    },
+    "industry-apr-004": {
+      "source": "https://ppc.land/amazons-payment-grab-ad-costs-to-auto-deduct-from-seller-proceeds-april-15/",
+      "dateAdded": "2026-04-04",
+      "verifiedAt": "2026-04-10T16:17:07.954Z",
+      "note": "WebFetch verified Apr 10 2026 batch"
+    },
+    "meta-apr-002": {
+      "source": "https://www.marketingbrew.com/stories/2026/04/07/meta-ai-ad-creation",
+      "dateAdded": "2026-04-07",
+      "verifiedAt": "2026-04-10T16:17:07.954Z",
+      "note": "WebFetch verified Apr 10 2026 batch"
+    },
+    "tiktok-apr-001": {
+      "source": "https://www.mediapost.com/publications/article/414146/tiktoks-us-ad-leader-khartoon-weiss-to-leave-co.html",
+      "dateAdded": "2026-04-07",
+      "verifiedAt": "2026-04-10T16:17:07.954Z",
+      "note": "WebFetch verified Apr 10 2026 batch"
+    },
+    "gads-apr-004": {
+      "source": "https://searchengineland.com/google-ads-adds-results-tab-to-show-impact-of-recommendations-473868",
+      "dateAdded": "2026-04-07",
+      "verifiedAt": "2026-04-10T16:17:07.954Z",
+      "note": "WebFetch verified Apr 10 2026 batch"
+    },
+    "meta-apr-003": {
+      "source": "https://searchengineland.com/meta-simplifies-pixel-setup-with-official-google-tag-manager-template-473882",
+      "dateAdded": "2026-04-08",
+      "verifiedAt": "2026-04-10T16:17:07.955Z",
+      "note": "WebFetch verified Apr 10 2026 batch"
+    },
+    "gads-apr-008": {
+      "source": "https://searchengineland.com/google-rolls-out-onboarding-guide-for-universal-commerce-protocol-473889",
+      "dateAdded": "2026-04-08",
+      "verifiedAt": "2026-04-10T16:17:07.955Z",
+      "note": "WebFetch verified Apr 10 2026 batch"
+    },
+    "gads-apr-009": {
+      "source": "https://searchengineland.com/google-launches-developer-hub-for-ads-and-measurement-tools-473894",
+      "dateAdded": "2026-04-08",
+      "verifiedAt": "2026-04-10T16:17:07.955Z",
+      "note": "WebFetch verified Apr 10 2026 batch"
+    },
+    "industry-mar-003": {
+      "source": "https://digiday.com/marketing/what-ai-disruption-means-for-experimental-ad-budgets/",
+      "dateAdded": "2026-03-30",
+      "verifiedAt": "2026-04-10T16:33:14.072Z",
+      "note": "Balance batch - non-PPC sources, WebFetch verified"
+    },
+    "meta-mar-006": {
+      "source": "https://www.socialmediatoday.com/news/meta-highlights-improvements-to-its-ad-serving-program/816289/",
+      "dateAdded": "2026-03-31",
+      "verifiedAt": "2026-04-10T16:33:14.072Z",
+      "note": "Balance batch - non-PPC sources, WebFetch verified"
+    },
+    "industry-apr-008": {
+      "source": "https://techcrunch.com/2026/04/08/canva-doubles-down-on-ai-and-marketing-automation-with-simtheory-ortto-acquisitions/",
+      "dateAdded": "2026-04-08",
+      "verifiedAt": "2026-04-10T16:33:14.072Z",
+      "note": "Balance batch - non-PPC sources, WebFetch verified"
+    },
+    "gads-apr-010": {
+      "source": "https://searchengineland.com/google-ads-simplifies-enhanced-conversions-into-a-single-switch-474101",
+      "dateAdded": "2026-04-10",
+      "verifiedAt": "2026-04-13T08:28:50.827Z",
+      "note": "WebFetch verified Apr 13 2026 manual batch"
+    },
+    "gads-apr-011": {
+      "source": "https://searchengineland.com/merchant-api-lands-in-google-ads-scripts-ahead-of-content-api-sunset-474126",
+      "dateAdded": "2026-04-10",
+      "verifiedAt": "2026-04-13T08:28:50.827Z",
+      "note": "WebFetch verified Apr 13 2026 manual batch"
+    },
+    "gads-apr-012": {
+      "source": "https://ppc.land/googles-2026-retail-ad-playbook-product-data-ctv-and-agentic-commerce/",
+      "dateAdded": "2026-04-10",
+      "verifiedAt": "2026-04-13T08:28:50.827Z",
+      "note": "WebFetch verified Apr 13 2026 manual batch"
+    },
+    "meta-apr-004": {
+      "source": "https://www.b2the7.com/news-blog/marketing-trends-april-13-2026",
+      "dateAdded": "2026-04-11",
+      "verifiedAt": "2026-04-13T08:28:50.827Z",
+      "note": "WebFetch verified Apr 13 2026 manual batch"
+    },
+    "tiktok-apr-003": {
+      "source": "https://www.b2the7.com/news-blog/marketing-trends-april-13-2026",
+      "dateAdded": "2026-04-11",
+      "verifiedAt": "2026-04-13T08:28:50.827Z",
+      "note": "WebFetch verified Apr 13 2026 manual batch"
+    },
+    "industry-apr-009": {
+      "source": "https://www.b2the7.com/news-blog/marketing-trends-april-13-2026",
+      "dateAdded": "2026-04-11",
+      "verifiedAt": "2026-04-13T08:28:50.827Z",
+      "note": "WebFetch verified Apr 13 2026 manual batch"
+    },
+    "gads-apr-013": {
+      "source": "https://searchengineland.com/google-retire-dynamic-search-ads-ai-max-474262",
+      "dateAdded": "2026-04-15",
+      "verifiedAt": "2026-04-20T09:59:35.953Z"
+    },
+    "gads-apr-014": {
+      "source": "https://searchengineland.com/google-ads-api-to-require-multi-factor-authentication-474706",
+      "dateAdded": "2026-04-17",
+      "verifiedAt": "2026-04-20T09:59:36.511Z"
+    },
+    "gads-apr-015": {
+      "source": "https://searchengineland.com/google-ads-tests-direct-google-tag-manager-integration-for-conversion-setup-474693",
+      "dateAdded": "2026-04-17",
+      "verifiedAt": "2026-04-20T09:59:37.064Z"
+    },
+    "meta-apr-006": {
+      "source": "https://www.retailbrew.com/stories/2026/04/16/meta-introduces-new-shopping-upgrades-under-ai-model-muse-spark",
+      "dateAdded": "2026-04-16",
+      "verifiedAt": "2026-04-20T09:59:37.620Z"
+    },
+    "tiktok-apr-004": {
+      "source": "https://www.socialmediatoday.com/news/tiktok-adds-new-ai-video-generation-to-symphony-ad-tool-kit/817379/",
+      "dateAdded": "2026-04-13",
+      "verifiedAt": "2026-04-20T09:59:38.176Z"
+    },
+    "linkedin-apr-003": {
+      "source": "https://www.socialmediatoday.com/news/linkedin-expands-ai-powered-conversational-search/817631/",
+      "dateAdded": "2026-04-15",
+      "verifiedAt": "2026-04-20T09:59:38.746Z"
+    },
+    "industry-apr-010": {
+      "source": "https://searchengineland.com/openai-begins-rolling-out-ads-in-select-markets-474704",
+      "dateAdded": "2026-04-17",
+      "verifiedAt": "2026-04-20T09:59:39.301Z"
+    },
+    "industry-apr-011": {
+      "source": "https://searchengineland.com/ai-traffic-converts-better-us-retailers-report-474689",
+      "dateAdded": "2026-04-17",
+      "verifiedAt": "2026-04-20T09:59:39.861Z"
+    },
+    "industry-apr-012": {
+      "source": "https://searchengineland.com/march-2026-google-core-update-what-changed-474397",
+      "dateAdded": "2026-04-15",
+      "verifiedAt": "2026-04-20T09:59:40.419Z"
+    },
+    "gads-apr-005": {
+      "source": "https://searchengineland.com/google-ads-lets-marketers-reuse-ai-text-rules-across-campaigns-473859",
+      "dateAdded": "2026-04-07",
+      "verifiedAt": "2026-04-20T00:00:00.000Z",
+      "note": "restored after Apr 20 ID collision cleanup"
+    },
+    "gads-apr-006": {
+      "source": "https://searchengineland.com/google-starts-showing-sponsored-ads-in-the-images-tab-on-mobile-search-473812",
+      "dateAdded": "2026-04-07",
+      "verifiedAt": "2026-04-20T00:00:00.000Z",
+      "note": "restored after Apr 20 ID collision cleanup"
+    },
+    "gads-apr-007": {
+      "source": "https://searchengineland.com/google-tests-swipeable-location-carousel-in-search-ads-473897",
+      "dateAdded": "2026-04-08",
+      "verifiedAt": "2026-04-20T00:00:00.000Z",
+      "note": "restored after Apr 20 ID collision cleanup"
+    },
+    "industry-apr-005": {
+      "source": "https://searchengineland.com/paid-media-efficiency-cut-waste-improve-roas-474032",
+      "dateAdded": "2026-04-10",
+      "verifiedAt": "2026-04-20T00:00:00.000Z",
+      "note": "restored after Apr 20 ID collision cleanup"
+    },
+    "industry-apr-006": {
+      "source": "https://www.marketingbrew.com/stories/2026/04/02/where-should-retail-media-networks-make-their-pitch-for-ad-dollars",
+      "dateAdded": "2026-04-02",
+      "verifiedAt": "2026-04-20T00:00:00.000Z",
+      "note": "restored after Apr 20 ID collision cleanup"
+    },
+    "industry-apr-007": {
+      "source": "https://www.marketingbrew.com/stories/2026/04/07/social-platforms-scrutiny-advertiser-loyalty",
+      "dateAdded": "2026-04-07",
+      "verifiedAt": "2026-04-20T00:00:00.000Z",
+      "note": "restored after Apr 20 ID collision cleanup"
+    },
+    "tiktok-apr-002": {
+      "source": "https://www.mediapost.com/publications/article/414206/",
+      "dateAdded": "2026-04-09",
+      "verifiedAt": "2026-04-20T00:00:00.000Z",
+      "note": "restored after Apr 20 ID collision cleanup"
+    },
+    "gads-apr-016": {
+      "source": "https://searchengineland.com/google-tests-video-ads-in-local-search-results-474860",
+      "dateAdded": "2026-04-20",
+      "verifiedAt": "2026-04-21T09:27:30.719Z"
+    },
+    "gads-apr-017": {
+      "source": "https://searchengineland.com/google-ads-asset-studio-game-changer-474709",
+      "dateAdded": "2026-04-20",
+      "verifiedAt": "2026-04-21T09:27:31.316Z"
+    },
+    "gads-apr-018": {
+      "source": "https://searchengineland.com/youtube-discover-political-ad-rules-updated-474875",
+      "dateAdded": "2026-04-20",
+      "verifiedAt": "2026-04-21T09:27:31.871Z"
+    },
+    "industry-apr-013": {
+      "source": "https://ppc.land/cnils-final-rules-on-email-tracking-pixels-are-here-what-changes/",
+      "dateAdded": "2026-04-19",
+      "verifiedAt": "2026-04-21T09:27:32.418Z"
+    },
+    "industry-apr-014": {
+      "source": "https://ppc.land/87-of-agency-pros-say-the-traditional-agency-model-is-broken/",
+      "dateAdded": "2026-04-20",
+      "verifiedAt": "2026-04-21T09:27:32.949Z"
+    },
+    "gads-apr-019": {
+      "source": "https://searchengineland.com/google-changes-budget-pacing-rules-for-scheduled-campaigns-475107",
+      "dateAdded": "2026-04-22",
+      "verifiedAt": "2026-05-01T12:32:47.750Z",
+      "note": "verified via WebFetch on Apr 30 2026"
+    },
+    "gads-apr-020": {
+      "source": "https://searchengineland.com/google-rolls-out-new-ai-safety-features-in-ads-advisor-474888",
+      "dateAdded": "2026-04-21",
+      "verifiedAt": "2026-05-01T12:32:47.750Z",
+      "note": "verified via WebFetch on Apr 30 2026"
+    },
+    "meta-apr-007": {
+      "source": "https://www.mediapost.com/publications/article/414547/meta-rolls-out-ai-business-assistant-to-all-advert.html",
+      "dateAdded": "2026-04-23",
+      "verifiedAt": "2026-05-01T12:32:47.750Z",
+      "note": "verified via WebFetch on Apr 30 2026"
+    },
+    "tiktok-apr-005": {
+      "source": "https://www.marketingdive.com/news/tiktok-boosts-measurement-partnerships-in-play-for-advertiser-confidence/818302/",
+      "dateAdded": "2026-04-23",
+      "verifiedAt": "2026-05-01T12:32:47.750Z",
+      "note": "verified via WebFetch on Apr 30 2026"
+    },
+    "linkedin-apr-004": {
+      "source": "https://searchengineland.com/linkedin-expands-event-ads-beyond-its-own-platform-475865",
+      "dateAdded": "2026-04-28",
+      "verifiedAt": "2026-05-01T12:32:47.750Z",
+      "note": "verified via WebFetch on Apr 30 2026"
+    },
+    "industry-apr-015": {
+      "source": "https://searchengineland.com/openai-adds-cpc-ads-to-chatgpt-475148",
+      "dateAdded": "2026-04-22",
+      "verifiedAt": "2026-05-01T12:32:47.750Z",
+      "note": "verified via WebFetch on Apr 30 2026"
+    },
+    "industry-apr-016": {
+      "source": "https://www.marketingbrew.com/stories/2026/04/23/youtube-google-search-amazon-sponsored-products-ad-spend",
+      "dateAdded": "2026-04-23",
+      "verifiedAt": "2026-05-01T12:32:47.750Z",
+      "note": "verified via WebFetch on Apr 30 2026"
+    },
+    "industry-apr-017": {
+      "source": "https://www.marketingbrew.com/stories/2026/04/22/advertisers-optimistic-netflix-dynamic-ad-insertion-women-s-world-cup",
+      "dateAdded": "2026-04-22",
+      "verifiedAt": "2026-05-01T12:32:47.750Z",
+      "note": "verified via WebFetch on Apr 30 2026"
+    },
+    "industry-apr-018": {
+      "source": "https://www.marketingbrew.com/stories/2026/04/21/what-this-year-s-webby-winners-say-about-the-future-of-advertising",
+      "dateAdded": "2026-04-21",
+      "verifiedAt": "2026-05-01T12:32:47.750Z",
+      "note": "verified via WebFetch on Apr 30 2026"
+    },
+    "gads-apr-021": {
+      "source": "https://ppc.land/google-ads-api-v24-cart-data-sales-view-lead-gen-conversions-retail-filters/",
+      "dateAdded": "2026-04-22",
+      "verifiedAt": "2026-05-01T12:32:47.750Z",
+      "note": "verified via WebFetch on Apr 30 2026"
+    },
+    "gads-apr-022": {
+      "source": "https://ppc.land/google-ads-api-to-expand-product-reporting-for-all-campaign-types-on-june-15/",
+      "dateAdded": "2026-04-30",
+      "verifiedAt": "2026-05-01T12:32:47.750Z",
+      "note": "verified via WebFetch on Apr 30 2026"
+    },
+    "industry-apr-019": {
+      "source": "https://ppc.land/alphabet-q1-2026-google-network-ad-revenue-falls-4-as-ai-reshapes-the-web/",
+      "dateAdded": "2026-04-30",
+      "verifiedAt": "2026-05-01T12:32:47.750Z",
+      "note": "verified via WebFetch on Apr 30 2026"
+    },
+    "industry-apr-020": {
+      "source": "https://www.adexchanger.com/daily-news-roundup/thursday-23042026/",
+      "dateAdded": "2026-04-23",
+      "verifiedAt": "2026-05-01T12:32:47.750Z",
+      "note": "verified via WebFetch on Apr 30 2026"
+    },
+    "industry-apr-021": {
+      "source": "https://www.mediapost.com/publications/article/414503/wpp-rethinks-consumer-journeys-with-google-earth-a.html",
+      "dateAdded": "2026-04-22",
+      "verifiedAt": "2026-05-01T12:32:47.750Z",
+      "note": "verified via WebFetch on Apr 30 2026"
+    }
+  }
+}
