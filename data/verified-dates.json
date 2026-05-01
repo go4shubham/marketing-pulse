@@ -716,6 +716,54 @@
       "dateAdded": "2026-04-27",
       "verifiedAt": "2026-05-01T16:06:43.199Z",
       "note": "verified via WebFetch on May 1 2026 - deep-april run"
+    },
+    "microsoft-jan-001": {
+      "source": "https://about.ads.microsoft.com/en/blog/post/january-2026/performance-max-updates-and-other-product-news-for-january-2026",
+      "dateAdded": "2026-01-15",
+      "verifiedAt": "2026-05-01T16:20:12.869Z",
+      "note": "verified via WebFetch on May 1 2026 - Q1 2026 platform fill"
+    },
+    "microsoft-feb-001": {
+      "source": "https://about.ads.microsoft.com/en/blog/post/february-2026/ad-preview-hub-and-other-product-news-for-february-2026",
+      "dateAdded": "2026-02-17",
+      "verifiedAt": "2026-05-01T16:20:12.869Z",
+      "note": "verified via WebFetch on May 1 2026 - Q1 2026 platform fill"
+    },
+    "microsoft-feb-002": {
+      "source": "https://almcorp.com/blog/microsoft-advertising-multi-image-shopping-ads-implementation-guide/",
+      "dateAdded": "2026-02-17",
+      "verifiedAt": "2026-05-01T16:20:12.869Z",
+      "note": "verified via WebFetch on May 1 2026 - Q1 2026 platform fill"
+    },
+    "amazon-jan-001": {
+      "source": "https://ppc.land/amazon-tightens-view-attribution-as-roas-reporting-splits/",
+      "dateAdded": "2026-01-14",
+      "verifiedAt": "2026-05-01T16:20:12.869Z",
+      "note": "verified via WebFetch on May 1 2026 - Q1 2026 platform fill"
+    },
+    "amazon-feb-001": {
+      "source": "https://ppc.land/amazon-cross-account-reach-reporting-lands-after-months-of-buildup/",
+      "dateAdded": "2026-02-15",
+      "verifiedAt": "2026-05-01T16:20:12.869Z",
+      "note": "verified via WebFetch on May 1 2026 - Q1 2026 platform fill"
+    },
+    "amazon-mar-001": {
+      "source": "https://ppc.land/amazon-opens-dsp-inventory-management-apis-what-changed-in-march/",
+      "dateAdded": "2026-03-23",
+      "verifiedAt": "2026-05-01T16:20:12.869Z",
+      "note": "verified via WebFetch on May 1 2026 - Q1 2026 platform fill"
+    },
+    "reddit-jan-001": {
+      "source": "https://www.socialmediatoday.com/news/reddit-launches-ai-powered-max-campaigns/808769/",
+      "dateAdded": "2026-01-05",
+      "verifiedAt": "2026-05-01T16:20:12.869Z",
+      "note": "verified via WebFetch on May 1 2026 - Q1 2026 platform fill"
+    },
+    "reddit-nov-001": {
+      "source": "https://www.dataslayer.ai/blog/reddit-ads-november-2025-interactive-ads-11-more-conversions",
+      "dateAdded": "2025-11-05",
+      "verifiedAt": "2026-05-01T16:20:12.869Z",
+      "note": "verified via WebFetch on May 1 2026 - Q1 2026 platform fill"
     }
   }
 }
