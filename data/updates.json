@@ -1615,25 +1615,6 @@
       ]
     },
     {
-      "id": "industry-apr-022",
-      "platform": "industry",
-      "category": "new_feature",
-      "impact": "high",
-      "title": "Microsoft Launches AI Max, Offer Highlights and Copilot Checkout for the Agentic Web Era",
-      "summary": "Microsoft Advertising launched AI Max for Search campaigns (open pilot in May) with expanded query matching, asset personalisation, and smarter URL routing. Offer Highlights surfaces selling points directly inside AI conversations, Copilot Checkout enables direct purchases inside Microsoft Copilot, and Clarity adds AI Visibility tracking that shows how brands appear in AI-generated answers.",
-      "action": "Audit Microsoft Ads accounts for AI Max readiness: tighten asset feeds and URL templates, then opt into the May open pilot. Add AI Visibility to Clarity dashboards for clients running Microsoft Ads. Add Offer Highlights tests to your roadmap (free shipping, returns, financing).",
-      "source": "https://searchengineland.com/microsoft-launches-ai-max-and-new-ad-tools-for-the-agentic-web-era-474939",
-      "sourceName": "Search Engine Land",
-      "dateAdded": "2026-04-21",
-      "tags": [
-        "Microsoft Ads",
-        "Bing",
-        "AI Max",
-        "Copilot",
-        "Agentic Web"
-      ]
-    },
-    {
       "id": "industry-apr-023",
       "platform": "industry",
       "category": "new_feature",
@@ -1652,13 +1633,122 @@
       ]
     },
     {
-      "id": "industry-apr-024",
-      "platform": "industry",
+      "id": "microsoft-mar-001",
+      "platform": "microsoft_ads",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "Microsoft Advertising Launches Self-Serve Negative Keyword Lists for Performance Max",
+      "summary": "Microsoft launched self-serve negative keywords for Performance Max in February 2026, with Editor, API, and Google Ads import support reaching general availability in the March 2026 product update. Lists support up to 5,000 negative keywords with Exact and Phrase match types, applied at campaign or account level.",
+      "action": "If you run Microsoft PMax, add a negative keyword list mirroring your Google Ads brand-protection negs. This puts Microsoft ahead of Google PMax (which still blocks campaign-level negatives in standard UI). Use the Google Ads import to copy your existing list.",
+      "source": "https://about.ads.microsoft.com/en/blog/post/march-2026/negative-keywords-for-pmax-and-other-product-news-for-march-2026",
+      "sourceName": "Microsoft Advertising Blog",
+      "dateAdded": "2026-03-17",
+      "tags": [
+        "Microsoft Ads",
+        "Performance Max",
+        "Negative Keywords"
+      ]
+    },
+    {
+      "id": "microsoft-apr-001",
+      "platform": "microsoft_ads",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "Microsoft April 2026 PMax Update: Google Ads Import, Final URL Reporting, 400-Char Names, RSA AI Assets",
+      "summary": "Microsoft's April 2026 product roundup ships PMax import from Google Ads (incl. NCA goals + automatic audience conversion), Final URL landing-page reporting for PMax, seasonality adjustments for portfolio bid strategies, campaign name limit raised to 400 chars (parity with Meta and Google), AI-generated text assets for underoptimised RSAs, and direct Merchant Center store name and domain edits.",
+      "action": "Migrate eligible Google PMax campaigns into Microsoft using the new import path. Turn on Final URL reporting on existing PMax to find leaky LPs. Audit any RSAs with under 8 user-supplied headlines for AI auto-asset opportunities.",
+      "source": "https://about.ads.microsoft.com/en/blog/post/april-2026/performance-max-updates-and-other-product-news-for-april-2026",
+      "sourceName": "Microsoft Advertising Blog",
+      "dateAdded": "2026-04-16",
+      "tags": [
+        "Microsoft Ads",
+        "Performance Max",
+        "Reporting",
+        "AI Assets"
+      ]
+    },
+    {
+      "id": "microsoft-apr-002",
+      "platform": "microsoft_ads",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "Microsoft Launches AI Max for Search, Offer Highlights, Copilot Checkout, Universal Commerce Protocol",
+      "summary": "On Apr 21 Microsoft unveiled an agentic-web ad stack: AI Max for Search (open pilot in May, expanded query matching, asset personalisation, smarter URL routing), Offer Highlights (selling points surfaced inside AI conversations on Copilot/Bing chat), Copilot Checkout for in-Copilot purchases, AI Visibility tracking inside Microsoft Clarity, an AI-powered Audience generation tool, and Universal Commerce Protocol support.",
+      "action": "Audit Microsoft Ads accounts for AI Max readiness: tighten asset feeds, verify Final URL templates, and opt into the May open pilot. Add AI Visibility tracking to standard Clarity dashboards for Microsoft Ads clients. Brief Offer Highlights tests (free shipping, returns, financing) into your roadmap.",
+      "source": "https://searchengineland.com/microsoft-launches-ai-max-and-new-ad-tools-for-the-agentic-web-era-474939",
+      "sourceName": "Search Engine Land",
+      "dateAdded": "2026-04-21",
+      "tags": [
+        "Microsoft Ads",
+        "AI Max",
+        "Copilot",
+        "Agentic Web",
+        "Offer Highlights"
+      ]
+    },
+    {
+      "id": "amazon-apr-001",
+      "platform": "amazon_ads",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "Amazon Ads Launches Cross-Account Reach and Frequency Reporting Across Sponsored Ads + DSP",
+      "summary": "Amazon Ads launched cross-account de-duplicated reach and frequency reporting on Apr 2, combining Sponsored Ads and Amazon DSP investments into a single unified view. Available across 36 markets in NA, SA, EMEA, and APAC via the Reporting (beta) UI and the public reporting API. Frequency-group measurement now extends to manager-account and cross-manager-account level.",
+      "action": "Ecommerce clients running both Sponsored Ads and DSP should pull the cross-account R&F report monthly to identify wasted overlap. Replace your old siloed Sponsored vs DSP reach decks with this single unified view in client reporting.",
+      "source": "https://ppc.land/amazon-cross-account-reach-reporting-lands-after-months-of-buildup/",
+      "sourceName": "ppc.land",
+      "dateAdded": "2026-04-17",
+      "tags": [
+        "Amazon Ads",
+        "Amazon DSP",
+        "Reach",
+        "Frequency",
+        "Reporting"
+      ]
+    },
+    {
+      "id": "amazon-apr-002",
+      "platform": "amazon_ads",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "Amazon DSP Omnichannel Metrics Adds Product Category Breakouts",
+      "summary": "Amazon DSP's Omnichannel Metrics now provides product category-level breakouts for US advertisers using a new exposure-based methodology. Multi-category sellers can see which product categories their DSP campaigns drive purchases in, at both study and campaign level.",
+      "action": "Multi-category advertisers (apparel, beauty, home, etc.) should reallocate DSP budget based on category-level OCM data instead of blended ROAS. Add the category breakout to monthly reporting.",
+      "source": "https://advertising.amazon.com/resources/whats-new/omnichannel-metrics-delivers-product-category-breakouts",
+      "sourceName": "Amazon Ads Newsroom",
+      "dateAdded": "2026-04-14",
+      "tags": [
+        "Amazon DSP",
+        "Omnichannel Metrics",
+        "Reporting"
+      ]
+    },
+    {
+      "id": "reddit-mar-001",
+      "platform": "reddit",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "Reddit Launches Collection Ads, Deal Overlays, and Shopify Integration at Shoptalk Spring 2026",
+      "summary": "Reddit unveiled Collection Ads (lifestyle hero image + shoppable product tiles in a single DPA carousel) plus Community and Deal overlays surfacing native Reddit signals. The Shopify alpha integration automates catalogue and pixel setup. Early Collection Ads adopters saw 8 percent lift in ROAS; Reddit DPA drove 91 percent higher YoY ROAS in Q4 2025.",
+      "action": "DTC and ecommerce clients with a Shopify store should join the Reddit Shopify alpha to remove the catalogue-setup friction. Add Collection Ads to existing DPA campaigns and watch the lift.",
+      "source": "https://ppc.land/reddit-launches-collection-ads-and-shopify-integration-for-dpa-at-shoptalk/",
+      "sourceName": "ppc.land",
+      "dateAdded": "2026-03-24",
+      "tags": [
+        "Reddit",
+        "Collection Ads",
+        "Shopify",
+        "DPA",
+        "Ecommerce"
+      ]
+    },
+    {
+      "id": "reddit-apr-001",
+      "platform": "reddit",
       "category": "trend",
       "impact": "high",
-      "title": "Reddit Q1 2026: Ad Revenue Up 74% to $625M, Daily Active Users Hit 126.8M",
-      "summary": "Reddit reported Q1 2026 ad revenue of $625 million, up 74 percent year-over-year. Global daily active users grew 17 percent to 126.8 million (53.5 million in the US). Growth driven by the Reddit Max AI optimisation suite and Dynamic Product Ads, with performance now 60 percent of total ad revenue.",
-      "action": "Reddit has graduated from experimental channel to performance contender. Add it to the test plan for any client where intent-driven communities matter (DTC, software, niche services). Start with Dynamic Product Ads + Reddit Max if the catalogue is ready.",
+      "title": "Reddit Q1 2026: Ad Revenue Up 74% to $625M, DAUs Hit 126.8M",
+      "summary": "Reddit reported Q1 2026 ad revenue of $625 million, up 74 percent year-over-year. Global daily active users grew 17 percent to 126.8 million (53.5 million in the US). Performance is now 60 percent of total ad revenue, driven by the Reddit Max AI optimisation suite and Dynamic Product Ads.",
+      "action": "Reddit has graduated from experimental channel to performance contender. Add it to the test plan for any client with intent-driven communities (DTC, B2B SaaS, niche services). Start with Reddit Max + DPA when catalogue is ready.",
       "source": "https://www.adexchanger.com/platforms/reddit-reports-a-75-boost-in-q1-ad-revenue-as-it-reaches-for-100-million-daily-us-users/",
       "sourceName": "AdExchanger",
       "dateAdded": "2026-04-30",
@@ -1667,6 +1757,167 @@
         "Reddit Max",
         "Performance",
         "Earnings"
+      ]
+    },
+    {
+      "id": "reddit-apr-002",
+      "platform": "reddit",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "Home Depot's Orange Apron Media Adds Self-Serve Reddit Buying Inside Orange Access",
+      "summary": "Home Depot's retail media network Orange Apron Media announced at its third annual InFronts an industry-first self-service integration that lets advertisers launch Reddit campaigns directly inside Orange Access using The Home Depot's first-party audience data. Display geotargeting is live now, with expansions through 2026.",
+      "action": "Brands selling on Home Depot or in adjacent home-improvement categories should test the OAM-Reddit self-serve path for first-party-data-fuelled Reddit reach. Compare ROAS against direct Reddit Ads with similar audience inputs.",
+      "source": "https://corporate.homedepot.com/news/company/orange-apron-media-unveils-new-partnerships-infronts-2026",
+      "sourceName": "The Home Depot Newsroom",
+      "dateAdded": "2026-04-22",
+      "tags": [
+        "Reddit",
+        "Retail Media",
+        "Home Depot",
+        "Orange Apron Media"
+      ]
+    },
+    {
+      "id": "gads-apr-023",
+      "platform": "google_ads",
+      "category": "policy_change",
+      "impact": "medium",
+      "title": "Google Ads Enforces $5 Daily Minimum Budget for Demand Gen Campaigns from April 1",
+      "summary": "Google Ads began enforcing a $5 USD (or local equivalent) daily minimum budget for all Demand Gen campaigns from April 1, 2026, applied universally across Google Ads API versions. Existing under-threshold campaigns can keep running but become subject to the new rule on any budget or schedule change.",
+      "action": "Audit any client running Demand Gen with daily budgets under $5. Either consolidate, raise the budget, or migrate to a different campaign type before the next budget edit triggers the floor.",
+      "source": "https://ppc.land/google-to-enforce-5-minimum-daily-budget-on-demand-gen-campaigns-from-april/",
+      "sourceName": "ppc.land",
+      "dateAdded": "2026-04-01",
+      "tags": [
+        "Google Ads",
+        "Demand Gen",
+        "Budget",
+        "Policy"
+      ]
+    },
+    {
+      "id": "meta-apr-008",
+      "platform": "meta_ads",
+      "category": "trend",
+      "impact": "high",
+      "title": "Meta Q1 2026: $55B Ad Revenue Up 33%, 8M Advertisers Now Use AI Creative Tools",
+      "summary": "Meta reported $55.02 billion in advertising revenue for Q1 2026, up 33 percent year-over-year. Ad impressions rose 19 percent and average price per ad increased 12 percent. AI creative tool adoption doubled to over 8 million advertisers (from 4 million at end of 2024); video generation features showed a 3 percent gain in conversion rate at scale.",
+      "action": "Meta's AI creative tools are now mainstream, not experimental. Make Advantage Plus video generation a default test on every new campaign for clients that aren't already using it. Use the 33 percent rev growth as evidence for clients hesitating to up Meta spend.",
+      "source": "https://ppc.land/meta-q1-2026-56-3b-revenue-as-ai-tools-double-advertiser-adoption/",
+      "sourceName": "ppc.land",
+      "dateAdded": "2026-04-29",
+      "tags": [
+        "Meta",
+        "Earnings",
+        "AI Creative",
+        "Advantage Plus"
+      ]
+    },
+    {
+      "id": "industry-apr-025",
+      "platform": "industry",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "HubSpot Spring 2026 Spotlight Launches AEO, Smart Deal Progression, Customer Agent + 100 Updates",
+      "summary": "HubSpot's Spring 2026 Spotlight on Apr 14 introduced HubSpot AEO (Answer Engine Optimisation, $50/mo standalone or in Marketing Hub Pro+ tracking ChatGPT, Gemini, Perplexity citations), Smart Deal Progression (analyses call transcripts to draft CRM updates and follow-ups), and Customer Agent (resolves around 70 percent of support conversations independently at $0.50 per resolution).",
+      "action": "B2B clients on HubSpot with a content engine: add HubSpot AEO so you can show citation share inside ChatGPT/Gemini/Perplexity in monthly reports. For high-volume support teams, pilot Customer Agent on common ticket types.",
+      "source": "https://www.hubspot.com/company-news/spring-2026-spotlight",
+      "sourceName": "HubSpot Newsroom",
+      "dateAdded": "2026-04-14",
+      "tags": [
+        "HubSpot",
+        "AEO",
+        "AI Agent",
+        "CRM",
+        "Sales"
+      ]
+    },
+    {
+      "id": "industry-apr-026",
+      "platform": "industry",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "Snapchat Launches AI Sponsored Snaps - Brand AI Agents in the Chat Tab",
+      "summary": "Snapchat rolled out AI Sponsored Snaps on Apr 28: brand AI agents placed directly inside the app's main Chat tab where users can ask questions and get product recommendations. Builds on existing Sponsored Snaps which deliver 22 percent more conversions at 20 percent lower CPA per Snapchat. Q1 2026 saw 950 billion chats sent on Snapchat.",
+      "action": "Brands with strong product Q&A surface area (beauty, electronics, fashion fit) should pilot an AI Sponsored Snaps agent. Treat as an evergreen channel between campaign flights, not a campaign add-on.",
+      "source": "https://techcrunch.com/2026/04/28/snapchat-brings-ai-powered-conversational-advertising-to-its-app/",
+      "sourceName": "TechCrunch",
+      "dateAdded": "2026-04-28",
+      "tags": [
+        "Snapchat",
+        "AI Agent",
+        "Conversational Ads"
+      ]
+    },
+    {
+      "id": "industry-apr-027",
+      "platform": "industry",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "Pinterest Launches Promote a Pin and Tests Performance+ Catalog Sales via Shopify",
+      "summary": "Pinterest launched Promote a Pin on Mar 24 - a low-friction boost feature using its Taste Graph multimodal AI to target conversion-likely audiences. Also testing a pre-built Performance+ Catalog Sales campaign that merchants can launch directly from the Pinterest Shopify app or Ads Manager.",
+      "action": "Small-business and DTC clients on Pinterest can use Promote a Pin to boost top organic Pins without building campaigns. For Shopify-merchant clients, plug the catalogue into Performance+ for hands-off catalogue sales.",
+      "source": "https://techcrunch.com/2026/03/24/pinterest-launches-a-new-feature-to-promote-a-pin/",
+      "sourceName": "TechCrunch",
+      "dateAdded": "2026-03-24",
+      "tags": [
+        "Pinterest",
+        "Promote a Pin",
+        "Shopify",
+        "Performance Plus"
+      ]
+    },
+    {
+      "id": "industry-apr-028",
+      "platform": "industry",
+      "category": "trend",
+      "impact": "high",
+      "title": "OpenAI ChatGPT Ads Pilot Crosses $100M Annualised Revenue in Six Weeks",
+      "summary": "OpenAI's ChatGPT advertising pilot crossed $100 million annualised in six weeks of launch, driven largely by FOMO from brands like Williams-Sonoma and DSW rather than proven returns yet. Industry observers caution that focusing on generative engine optimisation may currently outperform paid ChatGPT inventory.",
+      "action": "If a client wants to test ChatGPT ads, frame it as a learning agenda not a performance allocation. Run small CPC budgets in parallel with a serious GEO push (clean structured data, brand citations, content fit for LLM answers).",
+      "source": "https://digiday.com/marketing/marketers-join-openais-ad-pilot-nudged-by-fomo/",
+      "sourceName": "Digiday",
+      "dateAdded": "2026-04-27",
+      "tags": [
+        "ChatGPT",
+        "OpenAI",
+        "GEO",
+        "AI Search"
+      ]
+    },
+    {
+      "id": "industry-apr-029",
+      "platform": "industry",
+      "category": "trend",
+      "impact": "medium",
+      "title": "Creator Ad Spend Growing 4x Faster Than Rest of US Media Industry",
+      "summary": "Marketing Brew interview with Tiffany Rivers (VP, emerging media and influencer marketing, Media Cause) cites US creator ad spend growing four times faster than the rest of the media industry. Most nonprofit and mid-market clients are still in the experimentation phase, allocating 5-10 percent of paid media budgets to creator partnerships.",
+      "action": "Push clients still under 5 percent creator allocation to test a structured creator pilot in Q2-Q3. Build creator measurement around outcomes (signups, donations, ROAS) not just engagement.",
+      "source": "https://www.marketingbrew.com/stories/2026/04/09/all-things-creator-marketing-with-tiffany-rivers",
+      "sourceName": "Marketing Brew",
+      "dateAdded": "2026-04-09",
+      "tags": [
+        "Creator Marketing",
+        "Influencer",
+        "Budget Allocation"
+      ]
+    },
+    {
+      "id": "industry-apr-030",
+      "platform": "industry",
+      "category": "trend",
+      "impact": "medium",
+      "title": "Marketers Pump Brakes on Meta Fully-Automated Ad Vision",
+      "summary": "Marketing Brew finds advertisers worried about losing creative control and legal risk from undisclosed AI-generated imagery as Meta plans fully automated ad creation by end of 2026. While Andromeda and Advantage Plus are widely tested, many advertisers prefer manual oversight despite pressure to adopt.",
+      "action": "When pushing Advantage Plus or Andromeda to clients, build a manual creative review gate into the workflow. Document AI-generated assets so the legal and disclosure trail is clean before any platform mandates it.",
+      "source": "https://www.marketingbrew.com/stories/2026/04/07/meta-ai-ad-creation",
+      "sourceName": "Marketing Brew",
+      "dateAdded": "2026-04-07",
+      "tags": [
+        "Meta",
+        "AI Creative",
+        "Andromeda",
+        "Advantage Plus"
       ]
     }
   ]

@@ -537,23 +537,107 @@
       "verifiedAt": "2026-05-01T12:32:47.750Z",
       "note": "verified via WebFetch on Apr 30 2026"
     },
-    "industry-apr-022": {
-      "source": "https://searchengineland.com/microsoft-launches-ai-max-and-new-ad-tools-for-the-agentic-web-era-474939",
-      "dateAdded": "2026-04-21",
-      "verifiedAt": "2026-05-01T15:49:16.699Z",
-      "note": "verified via WebFetch on May 1 2026 - source-expansion run"
-    },
     "industry-apr-023": {
       "source": "https://developers.hubspot.com/changelog/april-2026-rollup",
       "dateAdded": "2026-04-30",
       "verifiedAt": "2026-05-01T15:49:16.699Z",
       "note": "verified via WebFetch on May 1 2026 - source-expansion run"
     },
-    "industry-apr-024": {
+    "microsoft-mar-001": {
+      "source": "https://about.ads.microsoft.com/en/blog/post/march-2026/negative-keywords-for-pmax-and-other-product-news-for-march-2026",
+      "dateAdded": "2026-03-17",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "microsoft-apr-001": {
+      "source": "https://about.ads.microsoft.com/en/blog/post/april-2026/performance-max-updates-and-other-product-news-for-april-2026",
+      "dateAdded": "2026-04-16",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "microsoft-apr-002": {
+      "source": "https://searchengineland.com/microsoft-launches-ai-max-and-new-ad-tools-for-the-agentic-web-era-474939",
+      "dateAdded": "2026-04-21",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "amazon-apr-001": {
+      "source": "https://ppc.land/amazon-cross-account-reach-reporting-lands-after-months-of-buildup/",
+      "dateAdded": "2026-04-17",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "amazon-apr-002": {
+      "source": "https://advertising.amazon.com/resources/whats-new/omnichannel-metrics-delivers-product-category-breakouts",
+      "dateAdded": "2026-04-14",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "reddit-mar-001": {
+      "source": "https://ppc.land/reddit-launches-collection-ads-and-shopify-integration-for-dpa-at-shoptalk/",
+      "dateAdded": "2026-03-24",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "reddit-apr-001": {
       "source": "https://www.adexchanger.com/platforms/reddit-reports-a-75-boost-in-q1-ad-revenue-as-it-reaches-for-100-million-daily-us-users/",
       "dateAdded": "2026-04-30",
-      "verifiedAt": "2026-05-01T15:49:16.699Z",
-      "note": "verified via WebFetch on May 1 2026 - source-expansion run"
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "reddit-apr-002": {
+      "source": "https://corporate.homedepot.com/news/company/orange-apron-media-unveils-new-partnerships-infronts-2026",
+      "dateAdded": "2026-04-22",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "gads-apr-023": {
+      "source": "https://ppc.land/google-to-enforce-5-minimum-daily-budget-on-demand-gen-campaigns-from-april/",
+      "dateAdded": "2026-04-01",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "meta-apr-008": {
+      "source": "https://ppc.land/meta-q1-2026-56-3b-revenue-as-ai-tools-double-advertiser-adoption/",
+      "dateAdded": "2026-04-29",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "industry-apr-025": {
+      "source": "https://www.hubspot.com/company-news/spring-2026-spotlight",
+      "dateAdded": "2026-04-14",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "industry-apr-026": {
+      "source": "https://techcrunch.com/2026/04/28/snapchat-brings-ai-powered-conversational-advertising-to-its-app/",
+      "dateAdded": "2026-04-28",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "industry-apr-027": {
+      "source": "https://techcrunch.com/2026/03/24/pinterest-launches-a-new-feature-to-promote-a-pin/",
+      "dateAdded": "2026-03-24",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "industry-apr-028": {
+      "source": "https://digiday.com/marketing/marketers-join-openais-ad-pilot-nudged-by-fomo/",
+      "dateAdded": "2026-04-27",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "industry-apr-029": {
+      "source": "https://www.marketingbrew.com/stories/2026/04/09/all-things-creator-marketing-with-tiffany-rivers",
+      "dateAdded": "2026-04-09",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
+    },
+    "industry-apr-030": {
+      "source": "https://www.marketingbrew.com/stories/2026/04/07/meta-ai-ad-creation",
+      "dateAdded": "2026-04-07",
+      "verifiedAt": "2026-05-01T15:59:03.062Z",
+      "note": "verified via WebFetch on May 1 2026 - full-april-batch run, includes new platform expansion (Microsoft, Amazon, Reddit)"
     }
   }
 }
