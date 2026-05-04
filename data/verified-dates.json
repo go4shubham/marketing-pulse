@@ -764,6 +764,36 @@
       "dateAdded": "2025-11-05",
       "verifiedAt": "2026-05-01T16:20:12.869Z",
       "note": "verified via WebFetch on May 1 2026 - Q1 2026 platform fill"
+    },
+    "gads-may-001": {
+      "source": "https://ppc.land/google-ads-cuts-granular-data-access-to-37-months-starting-june-2026/",
+      "dateAdded": "2026-05-01",
+      "verifiedAt": "2026-05-04T13:40:00.830Z",
+      "note": "verified via WebFetch on May 4 2026 - May week 1 batch"
+    },
+    "industry-may-001": {
+      "source": "https://digiday.com/marketing/openai-starts-laying-foundations-for-chatgpt-ads-in-eu/",
+      "dateAdded": "2026-05-01",
+      "verifiedAt": "2026-05-04T13:40:00.830Z",
+      "note": "verified via WebFetch on May 4 2026 - May week 1 batch"
+    },
+    "tiktok-may-001": {
+      "source": "https://musically.com/2026/05/01/tiktok-launches-new-feature-for-audience-reach/",
+      "dateAdded": "2026-05-01",
+      "verifiedAt": "2026-05-04T13:40:00.830Z",
+      "note": "verified via WebFetch on May 4 2026 - May week 1 batch"
+    },
+    "industry-may-002": {
+      "source": "https://www.socialmediatoday.com/news/pinterests-latest-ad-campaign-encourages-people-to-get-off-social-media/817640/",
+      "dateAdded": "2026-05-01",
+      "verifiedAt": "2026-05-04T13:40:00.830Z",
+      "note": "verified via WebFetch on May 4 2026 - May week 1 batch"
+    },
+    "industry-may-003": {
+      "source": "https://www.b2the7.com/news-blog/marketing-trends-may-2026-ai-mode-meta-google-creator",
+      "dateAdded": "2026-05-02",
+      "verifiedAt": "2026-05-04T13:40:00.830Z",
+      "note": "verified via WebFetch on May 4 2026 - May week 1 batch"
     }
   }
 }
