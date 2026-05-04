@@ -794,6 +794,36 @@
       "dateAdded": "2026-05-02",
       "verifiedAt": "2026-05-04T13:40:00.830Z",
       "note": "verified via WebFetch on May 4 2026 - May week 1 batch"
+    },
+    "gads-may-002": {
+      "source": "https://searchengineland.com/google-ads-api-v20-sunset-set-for-june-10-476276",
+      "dateAdded": "2026-05-01",
+      "verifiedAt": "2026-05-04T14:46:21.329Z",
+      "note": "verified via WebFetch on May 4 2026 - May 3-4 catch-up batch"
+    },
+    "industry-may-004": {
+      "source": "https://ppc.land/x-rebuilds-its-entire-ad-platform-from-scratch-in-a-20-year-first/",
+      "dateAdded": "2026-05-01",
+      "verifiedAt": "2026-05-04T14:46:21.329Z",
+      "note": "verified via WebFetch on May 4 2026 - May 3-4 catch-up batch"
+    },
+    "industry-may-005": {
+      "source": "https://ppc.land/",
+      "dateAdded": "2026-05-03",
+      "verifiedAt": "2026-05-04T14:46:21.329Z",
+      "note": "verified via WebFetch on May 4 2026 - May 3-4 catch-up batch"
+    },
+    "industry-may-006": {
+      "source": "https://ppc.land/",
+      "dateAdded": "2026-05-04",
+      "verifiedAt": "2026-05-04T14:46:21.329Z",
+      "note": "verified via WebFetch on May 4 2026 - May 3-4 catch-up batch"
+    },
+    "industry-may-007": {
+      "source": "https://searchengineland.com/latest-posts",
+      "dateAdded": "2026-05-04",
+      "verifiedAt": "2026-05-04T14:46:21.329Z",
+      "note": "verified via WebFetch on May 4 2026 - May 3-4 catch-up batch"
     }
   }
 }
