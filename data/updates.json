@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-04T12:00:00.000Z",
-  "weekOf": "2026-05-04",
+  "lastUpdated": "2026-05-11T12:00:00.000Z",
+  "weekOf": "2026-05-11",
   "updates": [
     {
       "id": "gads-apr-016",
@@ -2482,6 +2482,139 @@
         "AEO",
         "Brand Authority",
         "SEO"
+      ]
+    },
+    {
+      "id": "ai-may-001",
+      "platform": "ai_marketing",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "ChatGPT Ads Launches Self-Serve Manager With CPC Bidding",
+      "summary": "OpenAI opened a self-serve ads manager for ChatGPT with CPC bidding, campaign tools, and improved measurement, lowering the entry bar for SMBs. Early data shows strong CTRs on high-intent queries like Mother's Day shopping, though scaled inventory and audience size remain the open questions for paid teams.",
+      "action": "Spin up a small test budget ($500-1,500/week) in the new ChatGPT self-serve UI on a high-intent shopping or comparison query set. Mirror your best Google Search RSA copy, set conversion tracking via UTM + server-side, and benchmark CTR and CPA against Google Search after 14 days before scaling.",
+      "source": "https://searchengineland.com/chatgpt-ads-expand-with-self-serve-buying-476539",
+      "sourceName": "Search Engine Land",
+      "dateAdded": "2026-05-05",
+      "tags": [
+        "ChatGPT Ads",
+        "OpenAI",
+        "Self-Serve",
+        "AI Search",
+        "CPC"
+      ]
+    },
+    {
+      "id": "gads-may-003",
+      "platform": "google_ads",
+      "category": "new_feature",
+      "impact": "high",
+      "title": "Google Ads Adds Journey-Aware Bidding and Demand-Led Pacing",
+      "summary": "Google rolled out Journey-Aware Bidding (tCPA learns from non-biddable goals), Smart Bidding Exploration for PMax and Shopping (27% avg lift in unique converters), and Demand-Led Budget Pacing that auto-shifts spend to higher-demand days. Advertisers on total budgets reported 66% fewer manual budget edits.",
+      "action": "For B2B and long-cycle lead-gen accounts, opt into Journey-Aware Bidding beta and feed it 2-3 non-biddable upstream actions (MQL, demo-booked, SQL). Switch eligible PMax and Shopping campaigns to monthly total budgets to unlock Demand-Led Pacing. Re-baseline tCPA targets after 4 weeks before judging performance.",
+      "source": "https://searchengineland.com/google-adds-ai-powered-bidding-and-demand-led-budgeting-to-search-and-shopping-476744",
+      "sourceName": "Search Engine Land",
+      "dateAdded": "2026-05-07",
+      "tags": [
+        "Google Ads",
+        "Smart Bidding",
+        "PMax",
+        "Budget Pacing",
+        "Beta"
+      ]
+    },
+    {
+      "id": "gads-may-004",
+      "platform": "google_ads",
+      "category": "policy",
+      "impact": "medium",
+      "title": "Google Drops FAQ Rich Results From Search SERPs",
+      "summary": "Google confirmed FAQ rich results stopped appearing May 7. Search Console reporting and Rich Results Test support are removed in June 2026, API support gone by August. The change closes a long-standing SERP real-estate play and forces brands to rethink how they capture above-the-fold space for question queries.",
+      "action": "Audit pages relying on FAQ schema for CTR uplift this week and reallocate that content into PAA-friendly H2/H3 question blocks, AI Overview-eligible answer paragraphs, and product-detail snippets. Keep FAQPage markup live for other engines but stop investing in expansion. Pull pre/post May 7 impressions to size revenue exposure.",
+      "source": "https://searchengineland.com/google-to-no-longer-support-faq-rich-results-476957",
+      "sourceName": "Search Engine Land",
+      "dateAdded": "2026-05-08",
+      "tags": [
+        "SEO",
+        "Structured Data",
+        "FAQ Schema",
+        "Google Search",
+        "SERP"
+      ]
+    },
+    {
+      "id": "linkedin-may-001",
+      "platform": "linkedin_ads",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "LinkedIn Launches Agency Certification Program For B2B Shops",
+      "summary": "LinkedIn introduced an org-level Ads Agency Certification requiring a Business Manager, monthly invoicing setup, and a staff quota completing LinkedIn Marketing Academy modules. Certified agencies get an official badge, external messaging rights, and LinkedIn-led promotion. The credential is tied to the agency, not individuals.",
+      "action": "If you run more than $20K/month of LinkedIn spend across clients, kick off certification this week. Stand up Business Manager, request invoicing if you bill on cards, and assign 3-5 senior buyers to complete Marketing Academy tracks (strategy, targeting, optimization, measurement). Use the badge in pitch decks for B2B RFPs.",
+      "source": "https://ppc.land/linkedin-ads-agency-certification-sets-a-new-standard-for-b2b-agencies/",
+      "sourceName": "PPC Land",
+      "dateAdded": "2026-05-06",
+      "tags": [
+        "LinkedIn Ads",
+        "Certification",
+        "B2B",
+        "Agency",
+        "Business Manager"
+      ]
+    },
+    {
+      "id": "gads-may-005",
+      "platform": "google_ads",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "Microsoft Ads Expands Custom Columns To All Conversion Metrics",
+      "summary": "Microsoft Advertising expanded Custom Columns to support the full conversion-data set, including both all-conversions and primary-conversion variants. Advertisers can now build cost per qualified lead, blended CPA, and goal-level ROAS columns natively. Confirmed by Microsoft product liaison Navah Hopkins.",
+      "action": "Rebuild your Microsoft Ads reporting view this week with 3 custom columns: cost-per-primary-conversion, blended-CPA (all conversions), and ROAS-by-goal. Match the column logic to your Google Ads view so cross-platform comparisons are apples-to-apples. Update any Looker Studio or Sheets exports pulling Bing data to include the new metrics.",
+      "source": "https://searchengineland.com/microsoft-ads-expands-custom-columns-to-include-all-conversion-metrics-476845",
+      "sourceName": "Search Engine Land",
+      "dateAdded": "2026-05-07",
+      "tags": [
+        "Microsoft Ads",
+        "Bing",
+        "Custom Columns",
+        "Reporting",
+        "Conversion Tracking"
+      ]
+    },
+    {
+      "id": "gads-may-006",
+      "platform": "google_ads",
+      "category": "new_feature",
+      "impact": "medium",
+      "title": "Google Surfaces Tag Manager Controls Inside Google Ads UI",
+      "summary": "Google Ads is testing in-platform Tag Manager controls so advertisers can deploy and edit tags without leaving the Ads UI. The move reduces friction for PPC managers bouncing between GTM, GA4, and Google Ads, and signals tighter consolidation of the measurement stack inside Ads itself.",
+      "action": "When the toggle appears in your account, do not rip out your existing GTM container. Instead, audit which Google Ads conversion and remarketing tags actually need to live in GTM versus directly in Ads. Document tag ownership between PPC and analytics teams before May ends to avoid duplicate firing and inflated conversion counts.",
+      "source": "https://searchengineland.com/google-ads-surfaces-tag-manager-controls-inside-its-interface-476969",
+      "sourceName": "Search Engine Land",
+      "dateAdded": "2026-05-08",
+      "tags": [
+        "Google Ads",
+        "GTM",
+        "Tag Manager",
+        "Tracking",
+        "Measurement"
+      ]
+    },
+    {
+      "id": "industry-may-008",
+      "platform": "industry",
+      "category": "trend",
+      "impact": "medium",
+      "title": "Magnite Crosses 50% CTV Revenue Share In Q1 2026",
+      "summary": "Magnite reported its first Q1 profit with Connected TV crossing 51% of contribution ex-TAC for the first time. The milestone confirms CTV has overtaken display and mobile web as the dominant programmatic format on a top-3 SSP, reshaping where ad budgets and creative investment need to flow in 2026.",
+      "action": "For any DTC or lead-gen client spending more than $50K/month on social video, model a 10-15% reallocation test into programmatic CTV via DV360 or The Trade Desk next quarter. Repurpose existing 15s and 30s vertical creatives into 16:9 cuts now so the asset library is ready before Q3 upfront commitments lock supply.",
+      "source": "https://ppc.land/magnite-posts-first-quarter-profit-as-ctv-crosses-50-of-revenue/",
+      "sourceName": "PPC Land",
+      "dateAdded": "2026-05-11",
+      "tags": [
+        "CTV",
+        "Programmatic",
+        "Magnite",
+        "Video",
+        "SSP"
       ]
     }
   ]
