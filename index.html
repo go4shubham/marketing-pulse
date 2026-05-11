@@ -3583,7 +3583,7 @@ var INLINE_DATA = {
   }
 
   if (typeof fetch !== 'undefined') {
-    fetch('data/updates.json')
+    fetch('data/updates.json?v=' + Date.now(), { cache: 'no-store' })
       .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
       .then(function(d) { init(d); })
       .catch(function() { init(INLINE_DATA); });
